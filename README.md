@@ -5,13 +5,90 @@
   <a href="https://google.com">
     <img
       src="https://github.com/gchang2004/luna-demo/blob/master/src/assets/logos/logo.png?raw=true"
-      width="430px"
+      width="400px"
       alt="Project Logo"
     >
   </a>
 
-  <h1 align="center">Luna - Voyage On | Modern Collection for Men's & Women's Clothing</h1>
+  <h1 align="center"> 🌙 Luna | Voyage On</h1>
 </div>
+
+<!-- PROJECT BADGES -->
+<br />
+<div align="center">
+  <a href="https://google.com">
+    <img
+      src="https://img.shields.io/badge/View_Demo-Click_Here-informational?style=for-the-badge&logo=google+chrome&logoColor=white"
+      alt="View Demo - Click Here"
+    >
+  </a>&nbsp;
+  <ahref="https://github.com/gchang2004/luna-demo/generate">
+    <img
+      src="https://img.shields.io/badge/Generate-Use_This_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white"
+      alt="Generate - Use This Template">
+  </ahref=>
+</div>
+
+<!-- 📚 TABLE OF CONTENTS -->
+<br />
+<p align="center">
+  <a href="#-about-the-project">🧭 About The Project</a> •
+  <a href="#-languages-employed">🌎 Languages Employed</a> •
+  <a href="#-prerequisites">🚀 Prerequisites</a> •
+  <a href="#-license">📜 License</a> •
+  <a href="#-acknowledgments">💕 Acknowledgments</a> •
+  <a href="#-technology-utilized">💻 Technology Utilized</a>
+</p>
+
+<!-- PROJECT BADGES -->
+
+<div align="center">
+  <a href="https://github.com/gchang2004/luna-demo/graphs/contributors">
+    <img
+      src="https://img.shields.io/github/contributors/gchang2004/luna-demo?color=blueviolet" alt="Contributors"
+    >
+  </a>
+  <a href="https://github.com/gchang2004/luna-demo/graphs/commit-activity">
+    <img
+      src="https://img.shields.io/github/last-commit/gchang2004/luna-demo"
+      alt="Last Commit">
+   </a>
+  <a href="https://github.com/gchang2004/luna-demo/settings/pages">
+    <img
+      src="https://img.shields.io/website?color=success&url=https%3A%2F%2Fluna-demo%2F"
+      alt="Website Status">
+  </a>
+  <a href="https://github.com/gchang2004/luna-demo/blob/main/LICENSE.md">
+    <img
+      src="https://img.shields.io/github/license/gchang2004/luna-demo?color=ff69b4"
+      alt="License">
+  </a>
+  <a href="https://github.com/settings/repositories">
+    <img
+      src="https://img.shields.io/github/languages/code-size/gchang2004/luna-demo?color=informational"
+      alt="Code Size">
+  </a>
+</div>
+
+<!-- ABOUT THE PROJECT -->
+
+## 🧭 About The Project
+
+<div align="center">
+  <a href="https://google.com"><img src="https://github.com/gchang2004/luna-demo/blob/master/src/assets/logos/landing-page.png?raw=true" alt="Website Screenshot"></a>
+</div>
+
+UI/UX web-development concept for a clothing website.
+
+Topic: Modern Collection for Men's & Women's Clothing
+
+Objective: By leveraging pre-built Tailwind CSS components, create a fully functional e-commerce website from scratch by modifying and integrating additional infrastructure to complete the website architecture.
+
+Features:
+
+- Work in progress . . . 🚧 🏗️ 🛠️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SOFTWARE PROGRAMS USED -->
 
@@ -46,7 +123,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 ## 💕 Acknowledgments
 
-Clothing websites that inspired the design of the website!
+👕 Clothing websites that inspired the design of the website!
 
 - [H&M](https://www2.hm.com/en_us/index.html)
 - [Nike](https://www.nike.com/)
@@ -57,7 +134,7 @@ Clothing websites that inspired the design of the website!
 - [Uniqlo](https://www.uniqlo.com/us/en/men)
 - [ZARA](https://www.zara.com/us/)
 
-Resources that help make this website possible!
+📚 Resources that help make this website possible!
 
 - [Framer Motion](https://www.framer.com/motion/)
 - [Freepik](https://www.freepik.com)
