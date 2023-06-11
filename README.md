@@ -5,7 +5,7 @@
   <a href="https://google.com">
     <img
       src="https://github.com/gchang2004/luna-demo/blob/master/src/assets/logos/logo.png?raw=true"
-      width="400px"
+      width="375px"
       alt="Project Logo"
     >
   </a>
@@ -31,14 +31,21 @@
 
 <!-- 📚 TABLE OF CONTENTS -->
 <br />
-<p align="center">
-  <a href="#-about-the-project">🧭 About The Project</a> •
-  <a href="#-languages-employed">🌎 Languages Employed</a> •
-  <a href="#-prerequisites">🚀 Prerequisites</a> •
-  <a href="#-license">📜 License</a> •
-  <a href="#-acknowledgments">💕 Acknowledgments</a> •
-  <a href="#-technology-utilized">💻 Technology Utilized</a>
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="#-about-the-project">🧭 About The Project</a> •
+        <a href="#-languages-employed">🌎 Languages Employed</a> •
+        <a href="#-prerequisites">🚀 Prerequisites</a>
+        <a href="#-license">📜 License</a> •
+        <a href="#-acknowledgments">💕 Acknowledgments</a> •
+        <a href="#-technology-utilized">💻 Technology Utilized</a>
+      </td>
+    </tr>
+  </table>
+</div>
+<br />
 
 <!-- PROJECT BADGES -->
 
@@ -80,11 +87,11 @@
 
 UI/UX web-development concept for a clothing website.
 
-Topic: Modern Collection for Men's & Women's Clothing
+**Topic**: Modern Collection for Men's & Women's Clothing
 
-Objective: By leveraging pre-built Tailwind CSS components, create a fully functional e-commerce website from scratch by modifying and integrating additional infrastructure to complete the website architecture.
+**Objective**: By leveraging pre-built Tailwind CSS components, create a fully functional e-commerce website from scratch by modifying and integrating additional infrastructure to complete the website architecture.
 
-Features:
+**Features**:
 
 - Work in progress . . . 🚧 🏗️ 🛠️
 
