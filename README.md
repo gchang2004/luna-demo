@@ -31,20 +31,14 @@
 
 <!-- 📚 TABLE OF CONTENTS -->
 <br />
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="#-about-the-project">🧭 About The Project</a> •
-        <a href="#-languages-employed">🌎 Languages Employed</a> •
-        <a href="#-prerequisites">🚀 Prerequisites</a>
-        <a href="#-license">📜 License</a> •
-        <a href="#-acknowledgments">💕 Acknowledgments</a> •
-        <a href="#-technology-utilized">💻 Technology Utilized</a>
-      </td>
-    </tr>
-  </table>
-</div>
+  <div align="center">
+    <a href="#-about-the-project">About The Project</a> •
+    <a href="#-languages-employed">Languages Employed</a> •
+    <a href="#-prerequisites">Prerequisites</a> •
+    <a href="#-license">License</a> •
+    <a href="#-acknowledgments">Acknowledgments</a> •
+    <a href="#-technology-utilized">Technology Utilized</a>
+  </div>
 <br />
 
 <!-- PROJECT BADGES -->
