@@ -79,7 +79,9 @@
   <a href="https://google.com"><img src="https://github.com/gchang2004/luna-demo/blob/master/src/assets/logos/landing-page.png?raw=true" alt="Website Screenshot"></a>
 </div>
 
-UI/UX web-development concept for a clothing website.
+<br/>
+
+**Description**: UI/UX web-development concept for a clothing website.
 
 **Topic**: Modern Collection for Men's & Women's Clothing
 
