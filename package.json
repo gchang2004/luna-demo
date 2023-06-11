@@ -1,5 +1,6 @@
 {
-  "name": "estore-demo",
+  "name": "luna",
+  "homepage": "https://gchang2004.github.io/luna-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
