@@ -142,6 +142,8 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 - [GitHub Pages](https://pages.github.com)
 - [GitHub ReadME.md — othneildrew](https://github.com/othneildrew/Best-README-Template/blob/master/README.md#readme-top)
 - [GitHub Markdown-Badges](https://github.com/Ileriayo/markdown-badges)
+- [Headless UI](https://headlessui.com/)
+- [Heroicons](https://heroicons.com/)
 - [NPM | react-fast-marquee](https://www.npmjs.com/package/react-fast-marquee)
 - [NPM | react-helmet](https://www.npmjs.com/package/react-helmet)
 - [NPM | react-switch](https://www.npmjs.com/package/react-switch)
