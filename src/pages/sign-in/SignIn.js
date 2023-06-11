@@ -26,7 +26,7 @@ const SignIn = () => {
         {/* LOGO + Title */}
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <motion.span variants={textMotion}>
-            <Link to="/">
+            <Link to="/luna-demo">
               <img
                 className="mx-auto h-12 w-auto"
                 src={lunaLetter}

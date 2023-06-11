@@ -16,11 +16,11 @@ const Input = {
 
   // Category Filter
   subCategories: [
-      { name: 'Bottoms', href: '/men/clothing/bottoms' },
-      { name: 'Innerwear', href: '/men/clothing/innerwear' },
-      { name: 'Outerwear', href: '/men/clothing/outerwear' },
-      { name: 'Activewear', href: '/men/clothing/activewear' },
-      { name: 'Browse All', href: '/men/clothing' },
+      { name: 'Bottoms', href: '/luna-demo/men/clothing/bottoms' },
+      { name: 'Innerwear', href: '/luna-demo/men/clothing/innerwear' },
+      { name: 'Outerwear', href: '/luna-demo/men/clothing/outerwear' },
+      { name: 'Activewear', href: '/luna-demo/men/clothing/activewear' },
+      { name: 'Browse All', href: '/luna-demo/men/clothing' },
   ],
 
   // Specific Category Filters
@@ -68,7 +68,7 @@ const Input = {
       id: 1,
       name: 'Basic Tee 6-Pack',
       category: "Men's T-Shirts",
-      href: '/men/clothing/tops/basic-tee',
+      href: '/luna-demo/men/clothing/tops/basic-tee',
       price: '$192',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-02-featured-product-shot.jpg',
       imageAlt: 'blah blah',

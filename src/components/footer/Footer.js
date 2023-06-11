@@ -12,7 +12,7 @@ const Footer = () => {
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div>
           {/* Company Logo */}
-          <Link to='/'>
+          <Link to='/luna-demo'>
             <img
               class="h-24"
               viewBox="0 0 118 24"
@@ -145,31 +145,31 @@ const Footer = () => {
             <nav aria-label="Footer Navigation - Services" class="mt-6">
               <ul class="space-y-4 text-sm">
                 <li>
-                  <a href="https://www.hyperui.dev/components/marketing/footers#component-3" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/women" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Women
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <Link to="/men" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/men" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Men
                   </Link>
                 </li>
 
                 <li>
-                  <Link to="/new-arrivals" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/new-arrivals" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     New Arrivals
                   </Link>
                 </li>
 
                 <li>
-                  <a href="https://www.google.com/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/error" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Accessories
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="https://www.google.com/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <a href="/luna-demo/error" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Brands
                   </a>
                 </li>
@@ -184,27 +184,27 @@ const Footer = () => {
             <nav aria-label="Footer Navigation - Company" class="mt-6">
               <ul class="space-y-4 text-sm">
                 <li>
-                  <a href="https://www.google.com/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/error" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     About Luna
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="https://www.google.com/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/error" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Careers
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="https://www.google.com/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/error" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Investors
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="https://www.google.com/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/error" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Sustainability
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -217,33 +217,33 @@ const Footer = () => {
             <nav aria-label="Footer Navigation - Company" class="mt-6">
               <ul class="space-y-4 text-sm">
                 <li>
-                  <Link to="/sign-in" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/sign-in" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     My Account
                   </Link>
                 </li>
 
                 <li>
-                  <a href="https://www.google.com/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/error" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Find a Store
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="https://www.google.com/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/error"class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Order Status
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="https://www.google.com/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/error" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Refund & Exchange
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="https://www.google.com/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/error" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Shipping & Deliveries
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -256,21 +256,21 @@ const Footer = () => {
             <nav aria-label="Footer Navigation - Legal" class="mt-6">
               <ul class="space-y-4 text-sm">
                 <li>
-                  <a href="https://www.hyperui.dev/components/marketing/footers#component-3" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/error" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="https://www.google.com/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/error" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Terms & Conditions
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="https://www.google.com/" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
+                  <Link to="/luna-demo/error" class="text-gray-700 transition hover:text-indigo-600 hover:underline">
                     Accessibility
-                  </a>
+                  </Link>
                 </li>
 
                 <li>

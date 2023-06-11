@@ -11,7 +11,7 @@ const products = [
     id: 1,
     name: 'Palm Silk T-Shirt',
     category: "Men's Casual T-Shirts",
-    href: '/men/clothing/tops/basic-tee',
+    href: '/luna-demo/men/clothing/tops/basic-tee',
     price: '$158.00',
     quantity: 2,
     imageSrc: 'https://tommybahama.scene7.com/is/image/TommyBahama/ST326336_11438_main?$main_detail_500$',
@@ -21,7 +21,7 @@ const products = [
     id: 2,
     name: 'Medium Stuff Satchel',
     category: "Women's Accessories",
-    href: '/error',
+    href: '/luna-demo/error',
     price: '$60.00',
     quantity: 1,
     imageSrc: 'https://tommybahama.scene7.com/is/image/TommyBahama/BR34723BLWG_1055_main?$main_detail_500$',
@@ -31,7 +31,7 @@ const products = [
     id: 3,
     name: 'Coastal Breeze Polo Shirt',
     category: "Men's Polo Shirt",
-    href: '/error',
+    href: '/luna-demo/error',
     price: '$90.00',
     quantity: 2,
     imageSrc: 'https://tommybahama.scene7.com/is/image/TommyBahama/T220856_19393_main?$main_detail_500$',
@@ -41,7 +41,7 @@ const products = [
     id: 4,
     name: 'Chip Shot 10-Inch Shorts',
     category: "Men's Pants",
-    href: '/error',
+    href: '/luna-demo/error',
     price: '$110.00',
     quantity: 1,
     imageSrc: 'https://tommybahama.scene7.com/is/image/TommyBahama/ST889700_2939_main?$main_detail_500$',
@@ -51,7 +51,7 @@ const products = [
     id: 5,
     name: 'Palm Silk T-Shirt',
     category: "Men's Casual T-Shirts",
-    href: '/error',
+    href: '/luna-demo/error',
     price: '$158.00',
     quantity: 1,
     imageSrc: 'https://tommybahama.scene7.com/is/image/TommyBahama/ST326336_11438_main?$main_detail_500$',
@@ -61,7 +61,7 @@ const products = [
     id: 6,
     name: 'Medium Stuff Satchel',
     category: "Women's Accessories",
-    href: '/error',
+    href: '/luna-demo/error',
     price: '$60.00',
     quantity: 1,
     imageSrc: 'https://tommybahama.scene7.com/is/image/TommyBahama/BR34723BLWG_1055_main?$main_detail_500$',
@@ -71,7 +71,7 @@ const products = [
     id: 7,
     name: 'Coastal Breeze Polo Shirt',
     category: "Men's Polo Shirt",
-    href: '/error',
+    href: '/luna-demo/error',
     price: '$90.00',
     quantity: 2,
     imageSrc: 'https://tommybahama.scene7.com/is/image/TommyBahama/T220856_19393_main?$main_detail_500$',
@@ -252,7 +252,7 @@ const ShoppingCart = () => {
 
                   {/* Checkout Button */}
                   <div className="mt-6">
-                    <Link to="/error"
+                    <Link to="/luna-demo/error"
                       className="flex items-center justify-center rounded-lg bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-md hover:bg-indigo-700 hover:shadow-none"
                     >
                       Checkout

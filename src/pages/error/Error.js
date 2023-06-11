@@ -36,7 +36,7 @@ return (
 
         {/* Company Logo */}
         <motion.span variants={textMotion}>
-            <Link to="/">
+            <Link to="/luna-demo">
               <img
                 className="mx-auto h-24 w-auto"
                 src={armstrong}
@@ -57,7 +57,7 @@ return (
         <div className="mt-10 flex items-center justify-center gap-x-6">
             {/* Home Page Button */}
             <motion.span variants={textMotion}>
-            <Link to="/" className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-md hover:shadow-none hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            <Link to="/luna-demo" className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-md hover:shadow-none hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Go back home
             </Link>
             </motion.span>

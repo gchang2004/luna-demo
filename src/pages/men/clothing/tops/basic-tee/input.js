@@ -12,13 +12,13 @@ const input = {
       // General Information about the product
       name: 'Basic Tee 6-Pack',
       price: '$192',
-      to: '/men/clothing/tops/basic-tee',
+      to: '/luna-demomen/clothing/tops/basic-tee',
       
       // Product Breadcrumbs
       breadcrumbs: [
-        { id: 1, name: 'Men', to: '/men' },
-        { id: 2, name: 'Clothing', to:'/men/clothing'},
-        { id: 3, name: 'Tops', to: '/men/clothing/tops' },
+        { id: 1, name: 'Men', to: '/luna-demo/men' },
+        { id: 2, name: 'Clothing', to:'/luna-demo/men/clothing'},
+        { id: 3, name: 'Tops', to: '/luna-demo/men/clothing/tops' },
       ],
 
       //Product Images
