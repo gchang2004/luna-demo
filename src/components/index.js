@@ -1,0 +1,11 @@
+export { default as Banner } from './landing-page/banner/Banner';
+export { default as Brands } from './landing-page/brands/Brands';
+export { default as Footer } from './footer/Footer';
+export { default as Header } from './landing-page/header/Header';
+export { default as NavBar } from './navbar/NavBar';
+export { default as Previews } from './landing-page/previews/Previews';
+export { default as ProductCategory } from './product-category/ProductCategory';
+export { default as ProductList } from './product-list/ProductList';
+export { default as ProductOverview } from './product-overview/ProductOverview';
+export { default as ProductRecommendation } from './product-recommendation/ProductRecommendation';
+export { default as ShoppingCart } from './shopping-cart/ShoppingCart';
