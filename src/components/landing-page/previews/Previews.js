@@ -102,9 +102,8 @@ const Previews = () => {
                   </h3>
 
                   {/* Collection Description */}
-                  <p className="text-base font-semibold text-gray-900">
-                    {callout.description}
-                  </p>
+                  <p className="text-base font-semibold text-gray-900">{callout.description}</p>
+                  
                 </motion.span>
 
               </div>

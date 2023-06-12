@@ -50,6 +50,7 @@ const Header = () => {
             <motion.h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl mt-2" variants={textMotion}>
               A New Dimension to Style.
             </motion.h1>
+            {/* SUBHEADING TEXT */}
             <motion.p className="mt-4 text-xm text-gray-500" variants={textMotion}>
             Inspired by the cosmic wonders, we curated a collection that blends elegance, innovation, and a touch of magic. Here, its one small step for Luna, one celestial leap for fashion.
             </motion.p>

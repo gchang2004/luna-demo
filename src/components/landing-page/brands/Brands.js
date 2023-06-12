@@ -104,7 +104,7 @@ const Brands = () => {
             </a>
           </Marquee>
         </motion.div>
-
+        
       </div>
     </motion.div>
   )

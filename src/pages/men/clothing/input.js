@@ -68,7 +68,7 @@ const Input = {
         id: 1,
         name: 'clothing 1',
         href: 'https://www.google.com/',
-        price: '$48',
+        price: '$21',
         imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
         imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
       },

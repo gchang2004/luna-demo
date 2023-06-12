@@ -4,7 +4,7 @@ import { RadioGroup } from '@headlessui/react';
 import { Link } from 'react-router-dom';
   
 function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(' ')
 }
 
 const ProductOverview = ({ product, reviews }) => {

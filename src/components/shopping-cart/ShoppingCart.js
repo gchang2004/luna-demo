@@ -156,9 +156,7 @@ const ShoppingCart = () => {
                   {/* Title + Exit Button */}
                   <motion.div className="flex items-start justify-between" variants={textMotion}>
                     {/* Header Text */}
-                    <h1 className="text-lg font-medium text-gray-900">
-                      Shopping Cart
-                    </h1>
+                    <h1 className="text-lg font-medium text-gray-900">Shopping Cart</h1>
                     
                     {/* Exit Button */}
                     <div className="ml-3 flex h-7 items-center">
@@ -199,22 +197,16 @@ const ShoppingCart = () => {
                                 </Link>
 
                                 {/* Product Price */}
-                                <p className="ml-4 text-base font-medium text-gray-900">
-                                  {product.price}
-                                </p>
+                                <p className="ml-4 text-base font-medium text-gray-900">{product.price}</p>
                               </div>
 
                               {/* Product Category */}
-                              <p className="mt-1 text-sm text-gray-400">
-                                {product.category}
-                              </p>
+                              <p className="mt-1 text-sm text-gray-400">{product.category}</p>
                               
                               {/* Quantity + Remove Features */}
                               <div className="flex flex-1 items-end justify-between text-sm">
                                 {/* Product Quantity */}
-                                <p className="text-gray-500">
-                                  Qty {product.quantity}
-                                </p>
+                                <p className="text-gray-500">Qty {product.quantity}</p>
 
                                 {/* Remove Button */}
                                 <div className="flex">
@@ -235,7 +227,7 @@ const ShoppingCart = () => {
                   </motion.div>
                 </div>
 
-                {/* FIXED Checkout Tab */}
+                {/* STATIONARY Checkout Tab */}
                 <motion.div className="border-t border-gray-200 px-4 py-6 sm:px-6" variants={textMotion}>
                   {/* Subtotal Price */}
                   <div className="flex justify-between text-base font-medium text-gray-900">
@@ -246,9 +238,7 @@ const ShoppingCart = () => {
                   </div>
 
                   {/* Subtitle Information */}
-                  <p className="mt-0.5 text-sm text-gray-500">
-                    Shipping and taxes calculated at checkout.
-                  </p>
+                  <p className="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
 
                   {/* Checkout Button */}
                   <div className="mt-6">

@@ -396,7 +396,6 @@ const NavBar = () => {
               {/* COMPANY LOGO */}
               <motion.div className="ml-4 flex lg:ml-0" variants={textMotion}>
                 <Link to="/luna-demo">
-                  <span className="sr-only">Luna Inc.</span>
                   <img
                     className="h-7 w-auto"
                     src={lunaLetter}
