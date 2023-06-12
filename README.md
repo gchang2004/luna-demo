@@ -25,7 +25,8 @@
   <a href="https://github.com/gchang2004/luna-demo/generate">
     <img
       src="https://img.shields.io/badge/Generate-Use_This_Template-2ea44f?style=for-the-badge&logo=github&logoColor=white"
-      alt="Generate - Use This Template">
+      alt="Generate - Use This Template"
+    >
   </a>
 </div>
 
