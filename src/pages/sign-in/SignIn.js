@@ -73,7 +73,7 @@ const SignIn = () => {
 
                 {/* Forgot Password Link */}
                 <div className="text-sm">
-                  <Link to="/error" className="font-semibold text-indigo-600 hover:text-indigo-500">
+                  <Link to="/luna-demo/error" className="font-semibold text-indigo-600 hover:text-indigo-500">
                     Forgot Password?
                   </Link>
                 </div>

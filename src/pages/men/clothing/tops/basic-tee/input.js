@@ -50,14 +50,12 @@ const input = {
 
       // Product Sizing
       sizes: [
-        { name: 'XXS', inStock: false },
-        { name: 'XS', inStock: true },
+        { name: 'XS', inStock: false },
         { name: 'S', inStock: true },
         { name: 'M', inStock: true },
         { name: 'L', inStock: true },
         { name: 'XL', inStock: true },
-        { name: '2XL', inStock: true },
-        { name: '3XL', inStock: true },
+        { name: 'XXL', inStock: true },
       ],
 
       // Product Introduction
@@ -83,7 +81,7 @@ const input = {
       id: 1,
       name: 'Basic Tee',
       category: "Men's T-Shirts",
-      href: 'https://www.google.com/',
+      href: '/luna-demo/error',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$35',
