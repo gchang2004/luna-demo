@@ -86,7 +86,7 @@
 
 <br/>
 
-**Description**: UI/UX web-development concept for a clothing website.
+**Purpose**: UI/UX web-development concept for a clothing website.
 
 **Topic**: Modern Collection for Men's & Women's Clothing
 
