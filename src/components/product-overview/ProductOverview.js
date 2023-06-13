@@ -249,7 +249,7 @@ const ProductOverview = ({ product, reviews }) => {
             </div>
 
             {/* Product Description & Details */}
-            <div className="pt-12 lg:pb-16 lg:pr-8">
+            <div className="pt-10 lg:pb-16 lg:pr-8">
               {/* Main Product Info */}
               <p className="text-base text-gray-900">{product.description}</p>
 
