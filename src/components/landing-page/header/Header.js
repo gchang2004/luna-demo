@@ -32,7 +32,7 @@ const Header = () => {
   return (
     <div className="relative overflow-hidden bg-white">
       {/* INITIAL PAGE SETUPS -> TAILWINDCSS */}
-      <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
+      <div className="pb-80 pt-12 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           
           {/* HEADING TEXT */}
@@ -41,13 +41,13 @@ const Header = () => {
             whileInView="visible"
             viewport={{once: true, amount: 0.2}}
             variants={containerMotion}>
-            <motion.h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl" variants={textMotion}>
+            <motion.h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl" variants={textMotion}>
               Indulge in the
             </motion.h1>
-            <motion.h1 className="text-4xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-l from-blue-500 to-purple-500 sm:text-6xl" variants={textMotion}>
+            <motion.h1 className="text-5xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-l from-blue-500 to-purple-500 sm:text-6xl" variants={textMotion}>
               extraordinary
             </motion.h1>
-            <motion.h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl mt-2" variants={textMotion}>
+            <motion.h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mt-2" variants={textMotion}>
               A New Dimension to Style.
             </motion.h1>
             {/* SUBHEADING TEXT */}

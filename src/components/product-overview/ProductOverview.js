@@ -1,19 +1,19 @@
-import { useState } from 'react';
-import { StarIcon } from '@heroicons/react/20/solid';
-import { RadioGroup } from '@headlessui/react';
-import { Link } from 'react-router-dom';
-import { ShoppingBagIcon } from '@heroicons/react/24/outline';
-  
+import { useState } from "react";
+import { StarIcon } from "@heroicons/react/20/solid";
+import { RadioGroup } from "@headlessui/react";
+import { Link } from "react-router-dom";
+import { ShoppingBagIcon } from "@heroicons/react/24/outline";
+
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 const ProductOverview = ({ product, reviews }) => {
   // Color Selection -> default = none is selected
-  const [selectedColor, setSelectedColor] = useState(product.colors[0])
+  const [selectedColor, setSelectedColor] = useState(product.colors[0]);
 
   // Size Selection -> default = none is selected
-  const [selectedSize, setSelectedSize] = useState(product.sizes[0])
+  const [selectedSize, setSelectedSize] = useState(product.sizes[0]);
 
   return (
     <div className="bg-white">
@@ -26,7 +26,10 @@ const ProductOverview = ({ product, reviews }) => {
               <li key={breadcrumb.id}>
                 <div className="flex items-center">
                   {/* Breadcrumb Text */}
-                  <Link to={breadcrumb.to} className="mr-2 text-sm font-medium text-gray-500 hover:text-indigo-600">
+                  <Link
+                    to={breadcrumb.to}
+                    className="mr-2 text-sm font-medium text-gray-500 hover:text-indigo-600"
+                  >
                     {breadcrumb.name}
                   </Link>
 
@@ -41,21 +44,23 @@ const ProductOverview = ({ product, reviews }) => {
                   >
                     <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
                   </svg>
-
                 </div>
               </li>
             ))}
 
             {/* Breadcrumb PRODUCT Text */}
             <li className="text-sm">
-              <Link to={product.href} aria-current="page" className="font-medium text-gray-900 hover:text-indigo-600">
+              <Link
+                to={product.href}
+                aria-current="page"
+                className="font-medium text-gray-900 hover:text-indigo-600"
+              >
                 {product.name}
               </Link>
             </li>
-
           </ol>
         </nav>
-        
+
         {/* PRODUCT */}
         <div className="flex flex-col mx-auto lg:flex-row lg:max-w-7xl">
           {/* IMAGE GALLERY */}
@@ -77,7 +82,7 @@ const ProductOverview = ({ product, reviews }) => {
                 className="h-full w-full object-cover object-center"
               />
             </div>
-            
+
             {/* Image #3 */}
             <div className="aspect-h-4 aspect-w-3 hidden overflow-hidden rounded-lg lg:block">
               <img
@@ -86,7 +91,7 @@ const ProductOverview = ({ product, reviews }) => {
                 className="h-full w-full object-cover object-center"
               />
             </div>
-            
+
             {/* Image #4 */}
             <div className="aspect-h-5 aspect-w-4 lg:aspect-h-4 lg:aspect-w-3 sm:overflow-hidden sm:rounded-lg">
               <img
@@ -100,12 +105,16 @@ const ProductOverview = ({ product, reviews }) => {
           {/* PRODUCT INFO */}
           <div className="flex-1 mx-auto max-w-2xl px-6 pb-4 pt-4 sm:px-7 lg:max-w-7xl lg:px-14 lg:pt-8">
             {/* Product Name */}
-            <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{product.name}</h1>
+            <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+              {product.name}
+            </h1>
 
             {/* Product Options -> COLUMN */}
             <div className="mt-4">
               {/* Price */}
-              <p className="text-2xl tracking-tight text-gray-900 sm:text-3xl">{product.price}</p>
+              <p className="text-2xl tracking-tight text-gray-900 sm:text-3xl">
+                {product.price}
+              </p>
 
               {/* 5 Star Reviews */}
               <div className="mt-6 mb-10">
@@ -116,8 +125,10 @@ const ProductOverview = ({ product, reviews }) => {
                       <StarIcon
                         key={rating}
                         className={classNames(
-                          reviews.average > rating ? 'text-gray-900' : 'text-gray-200',
-                          'h-5 w-5 flex-shrink-0'
+                          reviews.average > rating
+                            ? "text-gray-900"
+                            : "text-gray-200",
+                          "h-5 w-5 flex-shrink-0"
                         )}
                         aria-hidden="true"
                       />
@@ -125,7 +136,10 @@ const ProductOverview = ({ product, reviews }) => {
                   </div>
 
                   {/* # of Reviews */}
-                  <Link to={reviews.href} className="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500">
+                  <Link
+                    to={reviews.href}
+                    className="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500"
+                  >
                     {reviews.totalCount} reviews
                   </Link>
                 </div>
@@ -134,30 +148,37 @@ const ProductOverview = ({ product, reviews }) => {
               {/* COLOR OPTION */}
               <div>
                 {/* Color Selection HEADER */}
-                <h3 className="text-md font-medium text-gray-900 mb-4">Color</h3>
+                <h3 className="text-md font-medium text-gray-900 mb-4">
+                  Color
+                </h3>
 
                 {/* Color Selection DISPLAY */}
-                <RadioGroup value={selectedColor} onChange={setSelectedColor} className="mt-4">
+                <RadioGroup
+                  value={selectedColor}
+                  onChange={setSelectedColor}
+                  className="mt-4"
+                >
                   <div className="flex items-center space-x-3">
                     {product.colors.map((color) => (
                       <RadioGroup.Option
                         key={color.name}
                         value={color}
                         className={({ active, checked }) =>
-                        // Color Selection RING
+                          // Color Selection RING
                           classNames(
                             color.selectedClass,
-                            active && checked ? 'ring ring-offset-1' : '',
-                            !active && checked ? 'ring-2' : '',
-                            'relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 focus:outline-none'
-                            // selected color ring display logic 
+                            active && checked ? "ring ring-offset-1" : "",
+                            !active && checked ? "ring-2" : "",
+                            "relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 focus:outline-none"
+                            // selected color ring display logic
                           )
                         }
                       >
                         {/* Color Selection CIRCLE */}
-                        <span className={classNames(
+                        <span
+                          className={classNames(
                             color.class,
-                            'h-8 w-8 rounded-full border border-black border-opacity-10'
+                            "h-8 w-8 rounded-full border border-black border-opacity-10"
                           )}
                         />
                       </RadioGroup.Option>
@@ -171,13 +192,20 @@ const ProductOverview = ({ product, reviews }) => {
                 {/* Size Selection HEADER */}
                 <div className="flex items-center justify-between">
                   <h3 className="text-md font-medium text-gray-900">Size</h3>
-                  <Link to="/luna-demo/error" className="text-sm font-medium text-indigo-600 hover:text-indigo-500">
+                  <Link
+                    to="/luna-demo/error"
+                    className="text-sm font-medium text-indigo-600 hover:text-indigo-500"
+                  >
                     Size Guide
                   </Link>
                 </div>
-                
+
                 {/* Size Selection DISPLAY */}
-                <RadioGroup value={selectedSize} onChange={setSelectedSize} className="mt-4">
+                <RadioGroup
+                  value={selectedSize}
+                  onChange={setSelectedSize}
+                  className="mt-4"
+                >
                   <div className="grid grid-cols-3 gap-4 sm:grid-cols-6 lg:grid-cols-6">
                     {product.sizes.map((size) => (
                       <RadioGroup.Option
@@ -188,29 +216,33 @@ const ProductOverview = ({ product, reviews }) => {
                         className={({ active }) =>
                           classNames(
                             size.inStock
-                              ? 'cursor-pointer bg-white text-gray-900 shadow-sm'
-                              : 'cursor-not-allowed bg-gray-50 text-gray-200',
-                            active ? 'ring-2 ring-indigo-500' : '',
-                            'group relative flex items-center justify-center rounded-lg border py-3 px-4 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6'
+                              ? "cursor-pointer bg-white text-gray-900 shadow-sm"
+                              : "cursor-not-allowed bg-gray-50 text-gray-200",
+                            active ? "ring-2 ring-indigo-500" : "",
+                            "group relative flex items-center justify-center rounded-lg border py-3 px-4 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6"
                           )
                         }
                       >
                         {({ active, checked }) => (
                           <>
                             {/* Size Name */}
-                            <RadioGroup.Label as="span">{size.name}</RadioGroup.Label>
+                            <RadioGroup.Label as="span">
+                              {size.name}
+                            </RadioGroup.Label>
                             {/* IN-STOCK Boxes*/}
                             {size.inStock ? (
                               <span
                                 className={classNames(
-                                  active ? 'border' : 'border-2',
-                                  checked ? 'border-indigo-500' : 'border-transparent',
-                                  'pointer-events-none absolute -inset-px rounded-lg'
+                                  active ? "border" : "border-2",
+                                  checked
+                                    ? "border-indigo-500"
+                                    : "border-transparent",
+                                  "pointer-events-none absolute -inset-px rounded-lg"
                                 )}
                                 aria-hidden="true"
                               />
                             ) : (
-                            // OUT-OF-STOCK Boxes
+                              // OUT-OF-STOCK Boxes
                               <span
                                 aria-hidden="true"
                                 className="pointer-events-none absolute -inset-px rounded-lg border-2 border-gray-200"
@@ -222,7 +254,13 @@ const ProductOverview = ({ product, reviews }) => {
                                   preserveAspectRatio="none"
                                   stroke="currentColor"
                                 >
-                                  <line x1={0} y1={100} x2={100} y2={0} vectorEffect="non-scaling-stroke" />
+                                  <line
+                                    x1={0}
+                                    y1={100}
+                                    x2={100}
+                                    y2={0}
+                                    vectorEffect="non-scaling-stroke"
+                                  />
                                 </svg>
                               </span>
                             )}
@@ -233,7 +271,7 @@ const ProductOverview = ({ product, reviews }) => {
                   </div>
                 </RadioGroup>
               </div>
-              
+
               {/* BUY Button */}
               <button
                 type="submit"
@@ -256,8 +294,10 @@ const ProductOverview = ({ product, reviews }) => {
               {/* Product Bulletpoints */}
               <div className="mt-8">
                 {/* Bulletpoint Title */}
-                <h3 className="text-md font-medium text-gray-900">Highlights</h3>
-                
+                <h3 className="text-md font-medium text-gray-900">
+                  Highlights
+                </h3>
+
                 {/* Bulletpoint Text */}
                 <div className="mt-4">
                   <ul className="list-disc space-y-2 pl-4 text-md">
@@ -274,21 +314,18 @@ const ProductOverview = ({ product, reviews }) => {
               <div className="mt-8">
                 {/* Detail Header */}
                 <h2 className="text-md font-medium text-gray-900">Details</h2>
-                
+
                 {/* Detail Description */}
                 <div className="mt-3">
                   <p className="text-sm text-gray-600">{product.details}</p>
                 </div>
               </div>
-
             </div>
-
           </div>
-
         </div>
+      </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 
-export default ProductOverview
+export default ProductOverview;
