@@ -24,7 +24,7 @@ const navigation = {
           imageAlt: "new arrivals - women",
         },
         {
-          name: "Featured Collections",
+          name: "Featured",
           href: "/luna-demo/women",
           imageSrc:
             "https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448737.jpg",
@@ -111,7 +111,7 @@ const navigation = {
           imageAlt: "new arrivals - men",
         },
         {
-          name: "Featured Collections",
+          name: "Featured",
           href: "/luna-demo/men",
           imageSrc:
             "https://img.freepik.com/premium-photo/shirt-mockup-concept-with-plain-clothing_23-2149448789.jpg?w=740",
@@ -276,65 +276,100 @@ const NavBar = () => {
 
                 {/* Links */}
                 <Tab.Group as="div" className="mt-2">
-                  <div className="border-b border-gray-200">
-                    <Tab.List className="-mb-px flex space-x-8 px-4">
-                      {navigation.categories.map((category) => (
-                        <Tab
-                          key={category.name}
-                          className={({ selected }) =>
-                            classNames(
-                              selected ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-gray-900',
-                              'flex-1 whitespace-nowrap border-b-2 px-1 py-4 text-base font-medium'
-                            )
-                          }
-                        >
-                          {category.name}
-                        </Tab>
-                      ))}
-                    </Tab.List>
-                  </div>
+                  {/* WOMEN & MEN TABS */}
+                  <motion.div className="border-b border-gray-200"
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.2 }}
+                    variants={menuMotion}
+                    >
+                    <motion.span variants={textMotion}>
+                      <Tab.List className="-mb-px flex space-x-8 px-4">
+                        {navigation.categories.map((category) => (
+                          <Tab
+                            key={category.name}
+                            className={({ selected }) =>
+                              classNames(
+                                selected ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-gray-900 hover:text-indigo-600',
+                                'flex-1 whitespace-nowrap border-b-2 px-1 py-4 text-base font-medium'
+                              )
+                            }
+                          >
+                            {category.name}
+                          </Tab>
+                        ))}
+                      </Tab.List>
+                    </motion.span>
+                  </motion.div>
+
+                  {/* FEATURED COLLECTIONS + LINK LISTS */}
                   <Tab.Panels as={Fragment}>
                     {navigation.categories.map((category) => (
                       <Tab.Panel key={category.name} className="space-y-10 px-4 pb-8 pt-10">
-                        <div className="grid grid-cols-2 gap-x-4">
+                        {/* Featured Collections -> IMAGES */}
+                        <motion.div className="grid grid-cols-2 gap-x-4"
+                          initial="hidden"
+                          whileInView="visible"
+                          viewport={{ once: true, amount: 0.2 }}
+                          variants={containerMotion2}
+                          >
                           {category.featured.map((item) => (
-                            <div key={item.name} className="group relative text-sm">
-                              <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
+                            <motion.div key={item.name} className="group relative text-sm" variants={menuMotion}>
+                              {/* Featured Image */}
+                              <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-xl bg-gray-100 group-hover:opacity-75">
                                 <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center" />
                               </div>
-                              <a href={item.href} className="mt-6 block font-medium text-gray-900">
-                                <span className="absolute inset-0 z-10" aria-hidden="true" />
+                              {/* Featured Title */}
+                              <Link to={item.href} className="mt-6 block font-semibold text-gray-900 hover:text-indigo-600">
+                                <span className="absolute inset-0 z-10"/>
                                 {item.name}
-                              </a>
-                              <p aria-hidden="true" className="mt-1">
+                              </Link>
+                              {/* Featured Subtitle */}
+                              <p className="mt-1 text-gray-600 group-hover:text-gray-500">
                                 Shop now
                               </p>
-                            </div>
+                            </motion.div>
                           ))}
-                        </div>
+                        </motion.div>
+
+                        {/* LINK Lists -> TEXT */}
                         {category.sections.map((section) => (
-                          <div key={section.name}>
-                            <p id={`${category.id}-${section.id}-heading-mobile`} className="font-medium text-gray-900">
-                              {section.name}
-                            </p>
-                            <ul
-                              role="list"
-                              aria-labelledby={`${category.id}-${section.id}-heading-mobile`}
-                              className="mt-6 flex flex-col space-y-6"
+                          <motion.div key={section.name}
+                            initial="hidden"
+                            whileInView="visible"
+                            viewport={{ once: true, amount: 0.1 }}
+                            variants={containerMotion2}
                             >
-                              {section.items.map((item) => (
-                                <li key={item.name} className="flow-root">
-                                  <a href={item.href} className="-m-2 block p-2 text-gray-500">
-                                    {item.name}
-                                  </a>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
+                            {/* List Header */}
+                            <Link to={section.href}>
+                              <motion.p id={`${category.id}-${section.id}-heading-mobile`}
+                                className="text-lg font-medium text-gray-900"
+                                variants={menuMotion}>
+                                  {section.name}
+                              </motion.p>
+                            </Link>
+                            
+                            {/* List Options */}
+                            <motion.span variants={menuMotion}>
+                              <ul
+                                aria-labelledby={`${category.id}-${section.id}-heading-mobile`}
+                                className="mt-3 flex flex-col space-y-5"
+                              >
+                                {section.items.map((item) => (
+                                    <li key={item.name} className="flow-root">
+                                      <Link to={item.href} className="-m-2 block p-2 text-gray-500 hover:text-indigo-600">
+                                        {item.name}
+                                      </Link>
+                                    </li>
+                                ))}
+                              </ul>
+                              </motion.span>
+                          </motion.div>
                         ))}
                       </Tab.Panel>
                     ))}
                   </Tab.Panels>
+
                 </Tab.Group>
 
                 {/* Company and Store */}
