@@ -1,11 +1,11 @@
-import { Fragment, useState } from 'react';
-import { Dialog, Popover, Tab, Transition } from '@headlessui/react';
-import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline';
-import lunaLetter from '../../assets/logos/luna-letter.png';
+import { Fragment, useState } from "react";
+import { Dialog, Popover, Tab, Transition } from "@headlessui/react";
+import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import lunaLetter from "../../assets/logos/luna-letter.png";
 
-import { ShoppingCart } from '../../components';
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { ShoppingCart } from "../../components";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 // TEXT INPUT CHANGE HERE ONLY
 const navigation = {
@@ -13,66 +13,86 @@ const navigation = {
   categories: [
     // WOMEN SECTON
     {
-      id: 'women',
-      name: 'Women',
+      id: "women",
+      name: "Women",
       featured: [
         {
-          name: 'New Arrivals',
-          href: '/luna-demo/new-arrivals',
-          imageSrc: 'https://img.freepik.com/premium-photo/model-women-dressed-fashionable-pastel-blazers-pants-with-stylish-sneakers-posing-cube-white-background-studio_8544-2564.jpg?w=740',
-          imageAlt: 'new arrivals - women',
+          name: "New Arrivals",
+          href: "/luna-demo/new-arrivals",
+          imageSrc:
+            "https://img.freepik.com/premium-photo/model-women-dressed-fashionable-pastel-blazers-pants-with-stylish-sneakers-posing-cube-white-background-studio_8544-2564.jpg?w=740",
+          imageAlt: "new arrivals - women",
         },
         {
-          name: 'Featured Collections',
-          href: '/luna-demo/women',
-          imageSrc: 'https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448737.jpg',
-          imageAlt: 'women collections',
+          name: "Featured Collections",
+          href: "/luna-demo/women",
+          imageSrc:
+            "https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448737.jpg",
+          imageAlt: "women collections",
         },
       ],
 
       sections: [
         // Women's Clothing
         {
-          id: 'clothing',
-          name: 'Clothing',
-          href: '/luna-demo/women/clothing',
+          id: "clothing",
+          name: "Clothing",
+          href: "/luna-demo/women/clothing",
           items: [
-            { name: 'Tops', href: '/luna-demo/women/clothing/tops' },
-            { name: 'Bottoms', href: '/luna-demo/women/clothing/bottoms' },
-            { name: 'Dresses & Skirts', href: '/luna-demo/women/clothing/dresses-&-skirts' },
-            { name: 'Innerwear', href: '/luna-demo/women/clothing/innerwear' },
-            { name: 'Outerwear', href: '/luna-demo/women/clothing/outerwear' },
-            { name: 'Activewear', href: '/luna-demo/women/clothing/activewear' },
-            { name: 'Browse All', href: '/luna-demo/women/clothing' },
+            { name: "Tops", href: "/luna-demo/women/clothing/tops" },
+            { name: "Bottoms", href: "/luna-demo/women/clothing/bottoms" },
+            {
+              name: "Dresses & Skirts",
+              href: "/luna-demo/women/clothing/dresses-&-skirts",
+            },
+            { name: "Innerwear", href: "/luna-demo/women/clothing/innerwear" },
+            { name: "Outerwear", href: "/luna-demo/women/clothing/outerwear" },
+            {
+              name: "Activewear",
+              href: "/luna-demo/women/clothing/activewear",
+            },
+            { name: "Browse All", href: "/luna-demo/women/clothing" },
           ],
         },
 
         // Men's Accessories
         {
-          id: 'accessories',
-          name: 'Accessories',
-          href: '/luna-demo/women/accessories',
+          id: "accessories",
+          name: "Accessories",
+          href: "/luna-demo/women/accessories",
           items: [
-            { name: 'Hats', href: '/luna-demo/women/accessories/hats' },
-            { name: 'Sunglasses', href: '/luna-demo/women/accessories/hats/sunglasses' },
-            { name: 'Belts', href: '/luna-demo/women/accessories/belts' },
-            { name: 'Wallets', href: '/luna-demo/women/accessories/wallets' },
-            { name: 'Bags & Backpacks', href: '/luna-demo/women/accessories/bags-&-backpacks' },
-            { name: 'Browse All', href: '/luna-demo/women/accessories' },
+            { name: "Hats", href: "/luna-demo/women/accessories/hats" },
+            {
+              name: "Sunglasses",
+              href: "/luna-demo/women/accessories/hats/sunglasses",
+            },
+            { name: "Belts", href: "/luna-demo/women/accessories/belts" },
+            { name: "Wallets", href: "/luna-demo/women/accessories/wallets" },
+            {
+              name: "Bags & Backpacks",
+              href: "/luna-demo/women/accessories/bags-&-backpacks",
+            },
+            { name: "Browse All", href: "/luna-demo/women/accessories" },
           ],
         },
 
         // Brand Collaborations
         {
-          id: 'brands',
-          name: 'Brands',
-          href: '/women/brands',
+          id: "brands",
+          name: "Brands",
+          href: "/women/brands",
           items: [
-            { name: 'PrettyLittleThing', href: 'https://www.prettylittlething.us/' },
-            { name: 'Princess Polly', href: 'https://us.princesspolly.com/' },
-            { name: 'Lululemon', href: 'https://shop.lululemon.com/' },
-            { name: 'Alo Yoga', href: 'https://www.aloyoga.com/' },
-            { name: 'Beginning Boutique', href: 'https://www.beginningboutique.com/' },
+            {
+              name: "PrettyLittleThing",
+              href: "https://www.prettylittlething.us/",
+            },
+            { name: "Princess Polly", href: "https://us.princesspolly.com/" },
+            { name: "Lululemon", href: "https://shop.lululemon.com/" },
+            { name: "Alo Yoga", href: "https://www.aloyoga.com/" },
+            {
+              name: "Beginning Boutique",
+              href: "https://www.beginningboutique.com/",
+            },
           ],
         },
       ],
@@ -80,64 +100,78 @@ const navigation = {
 
     // MEN SECTION
     {
-      id: 'men',
-      name: 'Men',
+      id: "men",
+      name: "Men",
       featured: [
         {
-          name: 'New Arrivals',
-          href: '/luna-demo/new-arrivals',
-          imageSrc: 'https://img.freepik.com/free-photo/handsome-man-autumn-setting_23-2149056583.jpg?w=740&t=st=1686626826~exp=1686627426~hmac=fc9c0cf48980f38a2074638771fbb85cfdc6719baed5bb53a68cd1a1d13f1bae',
-          imageAlt: 'new arrivals - men',
+          name: "New Arrivals",
+          href: "/luna-demo/new-arrivals",
+          imageSrc:
+            "https://img.freepik.com/free-photo/handsome-man-autumn-setting_23-2149056583.jpg?w=740&t=st=1686626826~exp=1686627426~hmac=fc9c0cf48980f38a2074638771fbb85cfdc6719baed5bb53a68cd1a1d13f1bae",
+          imageAlt: "new arrivals - men",
         },
         {
           name: "Featured Collections",
-          href: '/luna-demo/men',
-          imageSrc: 'https://img.freepik.com/premium-photo/shirt-mockup-concept-with-plain-clothing_23-2149448789.jpg?w=740',
-          imageAlt: 'mens collection',
+          href: "/luna-demo/men",
+          imageSrc:
+            "https://img.freepik.com/premium-photo/shirt-mockup-concept-with-plain-clothing_23-2149448789.jpg?w=740",
+          imageAlt: "mens collection",
         },
       ],
 
       sections: [
         // Men's Clothing
         {
-          id: 'clothing',
-          name: 'Clothing',
-          href: '/luna-demo/men/clothing',
+          id: "clothing",
+          name: "Clothing",
+          href: "/luna-demo/men/clothing",
           items: [
-            { name: 'Tops', href: '/luna-demo/men/clothing/tops' },
-            { name: 'Bottoms', href: '/luna-demo/men/clothing/bottoms' },
-            { name: 'Innerwear', href: '/luna-demo/men/clothing/innerwear' },
-            { name: 'Outerwear', href: '/luna-demo/men/clothing/outerwear' },
-            { name: 'Activewear', href: '/luna-demo/men/clothing/activewear' },
-            { name: 'Browse All', href: '/luna-demo/men/clothing' },
+            { name: "Tops", href: "/luna-demo/men/clothing/tops" },
+            { name: "Bottoms", href: "/luna-demo/men/clothing/bottoms" },
+            { name: "Innerwear", href: "/luna-demo/men/clothing/innerwear" },
+            { name: "Outerwear", href: "/luna-demo/men/clothing/outerwear" },
+            { name: "Activewear", href: "/luna-demo/men/clothing/activewear" },
+            { name: "Browse All", href: "/luna-demo/men/clothing" },
           ],
         },
 
         // Men's Accessories
         {
-          id: 'accessories',
-          name: 'Accessories',
-          href: '/men/accessories',
+          id: "accessories",
+          name: "Accessories",
+          href: "/men/accessories",
           items: [
-            { name: 'Hats', href: '/luna-demo/men/accessories/hats' },
-            { name: 'Sunglasses', href: '/luna-demo/men/accessories/hats/sunglasses' },
-            { name: 'Belts', href: '/luna-demo/men/accessories/belts' },
-            { name: 'Wallets', href: '/luna-demo/men/accessories/wallets' },
-            { name: 'Bags & Backpacks', href: '/luna-demo/men/accessories/bags-&-backpacks' },
-            { name: 'Browse All', href: '/luna-demo/men/accessories' },
+            { name: "Hats", href: "/luna-demo/men/accessories/hats" },
+            {
+              name: "Sunglasses",
+              href: "/luna-demo/men/accessories/hats/sunglasses",
+            },
+            { name: "Belts", href: "/luna-demo/men/accessories/belts" },
+            { name: "Wallets", href: "/luna-demo/men/accessories/wallets" },
+            {
+              name: "Bags & Backpacks",
+              href: "/luna-demo/men/accessories/bags-&-backpacks",
+            },
+            { name: "Browse All", href: "/luna-demo/men/accessories" },
           ],
         },
-        
+
         // Brand Collaborations
         {
-          id: 'brands',
-          name: 'Brands',
-          href: '/luna-demo/men/brands',
+          id: "brands",
+          name: "Brands",
+          href: "/luna-demo/men/brands",
           items: [
-            { name: 'Suspicious Antwerp', href: 'https://www.suspiciousantwerp.com/' },
-            { name: 'Vineyard Vines', href: 'https://www.vineyardvines.com/' },
-            { name: 'Nike', href: 'https://www.patagonia.com/home/' },
-            { name: 'Urban Outfitters', href: '/https://www.urbanoutfitters.com/' },
+            {
+              name: "Suspicious Antwerp",
+              href: "https://www.suspiciousantwerp.com/",
+            },
+            { name: "Vineyard Vines", href: "https://www.vineyardvines.com/" },
+            { name: "Nike", href: "https://www.patagonia.com/home/" },
+            {
+              name: "Urban Outfitters",
+              href: "/https://www.urbanoutfitters.com/",
+            },
           ],
         },
       ],
@@ -146,13 +180,13 @@ const navigation = {
 
   // Additional NavBar Pages
   pages: [
-    { name: 'Company', href: '/luna-demo/error' },
-    { name: 'Stores', href: '/luna-demo/error' },
+    { name: "Company", href: "/luna-demo/error" },
+    { name: "Stores", href: "/luna-demo/error" },
   ],
-}
+};
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 const NavBar = () => {
@@ -165,7 +199,7 @@ const NavBar = () => {
   // Logic statement for handling shopping-cart menu
   const handleCartClick = () => {
     setIsCartOpen(!isCartOpen);
-  }
+  };
 
   // stagger motion animation
   const containerMotion1 = {
@@ -181,16 +215,20 @@ const NavBar = () => {
   const textMotion = {
     // movement = FADE-IN
     hidden: { opacity: 0 }, // INITIAL STAGE
-    visible: { opacity: 1, transition: { duration: 0.2, ease: 'easeInOut' }}, // ANIMATION STAGE
+    visible: { opacity: 1, transition: { duration: 0.2, ease: "easeInOut" } }, // ANIMATION STAGE
   };
 
   // animation parameters for TEXT
   const menuMotion = {
-    // movement = FADE-IN 
+    // movement = FADE-IN
     hidden: { opacity: 0, y: -10 }, // INITIAL STAGE
-    visible: { opacity: 1, y: 0, transition: { duration: 0.3, ease: 'easeInOut' }}, // ANIMATION STAGE
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.3, ease: "easeInOut" },
+    }, // ANIMATION STAGE
   };
-  
+
   return (
     <div className="bg-white">
       {/* MOBILE MENU */}
@@ -223,7 +261,10 @@ const NavBar = () => {
             >
               <Dialog.Panel className="relative flex w-full max-w-xs flex-col overflow-y-auto bg-white pb-12 shadow-xl">
                 {/* Close SideBar Button */}
-                <motion.div className="flex px-4 pb-2 pt-5" variants={textMotion}>
+                <motion.div
+                  className="flex px-4 pb-2 pt-5"
+                  variants={textMotion}
+                >
                   <button
                     type="button"
                     className="-m-2 inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:text-indigo-600"
@@ -235,12 +276,9 @@ const NavBar = () => {
 
                 {/* Links */}
                 <Tab.Group as="div" className="mt-2">
-                  {/* Women and Men Category TABS */}
-                  <motion.div initial="hidden" whileInView="visible" viewport={{once: true, amount: 0.2}} variants={menuMotion}>
                   <div className="border-b border-gray-200">
                     <Tab.List className="-mb-px flex space-x-8 px-4">
                       {navigation.categories.map((category) => (
-                        // Reusable TAB Template
                         <Tab
                           key={category.name}
                           className={({ selected }) =>
@@ -255,137 +293,134 @@ const NavBar = () => {
                       ))}
                     </Tab.List>
                   </div>
-                  </motion.div>
-                  
-                  {/* Category Links -> Expand Out to SEE MORE */}
-                  <motion.div initial="hidden" whileInView="visible" viewport={{once: true, amount: 0.2}} variants={menuMotion}>
-                    <Tab.Panels as={Fragment}>
-                      {navigation.categories.map((category) => (
-                        <Tab.Panel key={category.name} className="space-y-10 px-4 pb-8 pt-8">
-                          {/* FEATURED COLLECTIONS -> Image Format */}
-                          <div className="grid grid-cols-2 gap-x-4">
-                            {category.featured.map((item) => (
-                              <div key={item.name} className="group relative text-sm">
-                                {/* Image Panels */}
-                                <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
-                                  <img
-                                    src={item.imageSrc}
-                                    alt={item.imageAlt}
-                                    className="object-cover object-center"
-                                    />
-                                </div>
-
-                                {/* Image Title */}
-                                <Link to={item.href} className="mt-6 block font-medium text-gray-900 hover:text-indigo-600">
-                                  <span className="absolute inset-0 z-100" aria-hidden="true" />
-                                  {item.name}
-                                </Link>
-
-                                {/* Subtitle */}
-                                <p aria-hidden="true" className="mt-1 text-gray-500 hover:text-indigo-600">
-                                  Shop now
-                                </p>
+                  <Tab.Panels as={Fragment}>
+                    {navigation.categories.map((category) => (
+                      <Tab.Panel key={category.name} className="space-y-10 px-4 pb-8 pt-10">
+                        <div className="grid grid-cols-2 gap-x-4">
+                          {category.featured.map((item) => (
+                            <div key={item.name} className="group relative text-sm">
+                              <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
+                                <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center" />
                               </div>
-                            ))}
-                          </div>
-
-                          {/* CATEGORY LISTING -> Text Format */}
-                          {category.sections.map((section) => (
-                            <motion.div key={section.name} variants={textMotion}>
-                              {/* Category Title */}
-                              <Link to={section.href}>
-                                <p id={`${category.id}-${section.id}-heading-mobile`}className="font-medium text-gray-900">
-                                  {section.name}
-                                </p>
-                              </Link>
-
-                              {/* Category List */}
-                              <ul
-                                aria-labelledby={`${category.id}-${section.id}-heading-mobile`}
-                                className="mt-3 flex flex-col space-y-4"
-                              >
-                                {section.items.map((item) => (
-                                  <li key={item.name} className="flow-root">
-                                    <Link to={item.href} className="-m-2 block p-2 text-gray-500 hover:text-indigo-600">
-                                      {item.name}
-                                    </Link>
-                                  </li>
-                                ))}
-                              </ul>
-                            </motion.div>
+                              <a href={item.href} className="mt-6 block font-medium text-gray-900">
+                                <span className="absolute inset-0 z-10" aria-hidden="true" />
+                                {item.name}
+                              </a>
+                              <p aria-hidden="true" className="mt-1">
+                                Shop now
+                              </p>
+                            </div>
                           ))}
-
-                        </Tab.Panel>
-                      ))}
-                    </Tab.Panels>
-                  </motion.div>
-
+                        </div>
+                        {category.sections.map((section) => (
+                          <div key={section.name}>
+                            <p id={`${category.id}-${section.id}-heading-mobile`} className="font-medium text-gray-900">
+                              {section.name}
+                            </p>
+                            <ul
+                              role="list"
+                              aria-labelledby={`${category.id}-${section.id}-heading-mobile`}
+                              className="mt-6 flex flex-col space-y-6"
+                            >
+                              {section.items.map((item) => (
+                                <li key={item.name} className="flow-root">
+                                  <a href={item.href} className="-m-2 block p-2 text-gray-500">
+                                    {item.name}
+                                  </a>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </Tab.Panel>
+                    ))}
+                  </Tab.Panels>
                 </Tab.Group>
 
                 {/* Company and Store */}
-                <motion.div className="space-y-6 border-t border-gray-200 px-4 py-6"
+                <motion.div
+                  className="space-y-6 border-t border-gray-200 px-4 py-6"
                   initial="hidden"
                   whileInView="visible"
-                  viewport={{once: true, amount: 0.2}}
+                  viewport={{ once: true, amount: 0.2 }}
                   variants={menuMotion}
-                  >
+                >
                   {navigation.pages.map((page) => (
                     <div key={page.name} className="flow-root">
-                      <a href={page.href} className="-m-2 block p-2 font-medium text-gray-900 hover:text-indigo-600">
+                      <Link
+                        to={page.href}
+                        className="-m-2 block p-2 font-medium text-gray-900 hover:text-indigo-600"
+                      >
                         {page.name}
-                      </a>
+                      </Link>
                     </div>
                   ))}
                 </motion.div>
-                
+
                 {/* Sign In + Create Account */}
-                <motion.div className="space-y-6 border-t border-gray-200 px-4 py-6"
+                <motion.div
+                  className="space-y-6 border-t border-gray-200 px-4 py-6"
                   initial="hidden"
                   whileInView="visible"
-                  viewport={{once: true, amount: 0.2}}
-                  variants={menuMotion}>
-                  <Link to="/luna-demo/sign-in" className="-m-2 block p-2 font-medium text-gray-900 hover:text-indigo-600">
+                  viewport={{ once: true, amount: 0.2 }}
+                  variants={menuMotion}
+                >
+                  <Link
+                    to="/luna-demo/sign-in"
+                    className="-m-2 block p-2 font-medium text-gray-900 hover:text-indigo-600"
+                  >
                     Sign In / Create Account
                   </Link>
                 </motion.div>
-                
+
                 {/* Currency Setting */}
-                <motion.div className="border-t border-gray-200 px-4 py-6"
+                <motion.div
+                  className="border-t border-gray-200 px-4 py-6"
                   initial="hidden"
                   whileInView="visible"
-                  viewport={{once: true, amount: 1}}
+                  viewport={{ once: true, amount: 1 }}
                   variants={menuMotion}
-                  >
+                >
                   {/* American Dollar -> Default Currencey */}
-                  <Link to='/luna-demo/error' className="flex items-center text-gray-700 hover:text-gray-800">
+                  <Link
+                    to="/luna-demo/error"
+                    className="flex items-center text-gray-700 hover:text-gray-800"
+                  >
                     <img
-                      src={"https://cdn-icons-png.flaticon.com/128/197/197484.png"}
+                      src={
+                        "https://cdn-icons-png.flaticon.com/128/197/197484.png"
+                      }
                       alt="United States of America"
                       className="block h-auto w-5 flex-shrink-0"
                     />
-                    <span className="ml-3 block text-sm font-medium hover:text-indigo-600 hover:font-semibold">USD</span>
+                    <span className="ml-3 block text-sm font-medium hover:text-indigo-600 hover:font-semibold">
+                      USD
+                    </span>
                   </Link>
                 </motion.div>
-
               </Dialog.Panel>
             </Transition.Child>
           </div>
-
         </Dialog>
       </Transition.Root>
 
       {/* DESKTOP MENU */}
       <header className="relative bg-white">
-        <nav aria-label="Top" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <motion.div className="border-b border-gray-200"
+        <nav
+          aria-label="Top"
+          className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+        >
+          <motion.div
+            className="border-b border-gray-200"
             initial="hidden"
             whileInView="visible"
-            viewport={{once: true, amount: 0.2}}
+            viewport={{ once: true, amount: 0.2 }}
             variants={containerMotion1}
-            >
+          >
             <div className="flex h-16 items-center">
               {/* MOBILE BUTTON -> Hidden in Desktop View */}
-              <motion.button variants={textMotion}
+              <motion.button
+                variants={textMotion}
                 type="button"
                 className="rounded-md bg-white p-2 text-gray-400 hover:text-indigo-600 lg:hidden"
                 onClick={() => setOpen(true)}
@@ -413,13 +448,16 @@ const NavBar = () => {
                       {({ open }) => (
                         <>
                           {/* Category Heading Animations + Name */}
-                          <motion.div className="relative flex" variants={textMotion}>
+                          <motion.div
+                            className="relative flex"
+                            variants={textMotion}
+                          >
                             <Popover.Button
                               className={classNames(
                                 open
-                                  ? 'border-indigo-600 text-indigo-600'
-                                  : 'border-transparent text-gray-800 hover:text-indigo-600',
-                                'relative z-100 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out'
+                                  ? "border-indigo-600 text-indigo-600"
+                                  : "border-transparent text-gray-800 hover:text-indigo-600",
+                                "relative z-100 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out"
                               )}
                             >
                               {category.name}
@@ -438,23 +476,33 @@ const NavBar = () => {
                           >
                             {/* Dropdown Menu Appearance */}
                             <Popover.Panel className="absolute inset-x-0 top-full text-sm text-gray-500">
-                              <div className="absolute inset-0 top-1/2 bg-white shadow" aria-hidden="true" />
-                              
+                              <div
+                                className="absolute inset-0 top-1/2 bg-white shadow"
+                                aria-hidden="true"
+                              />
+
                               <div className="z-50 relative bg-white">
                                 <div className="mx-auto max-w-7xl px-8">
-                                  <motion.div className="grid grid-cols-2 gap-x-8 gap-y-10 py-10"
+                                  <motion.div
+                                    className="grid grid-cols-2 gap-x-8 gap-y-10 py-10"
                                     initial="hidden"
                                     whileInView="visible"
-                                    viewport={{once: true, amount: 0.2}}
+                                    viewport={{ once: true, amount: 0.2 }}
                                     variants={containerMotion2}
-                                    >
+                                  >
                                     {/* CATEGORY LISTING -> Text Format */}
                                     <div className="row-start-1 grid grid-cols-3 gap-x-8 gap-y-10 text-sm">
                                       {category.sections.map((section) => (
-                                        <motion.div key={section.name} variants={menuMotion}>
+                                        <motion.div
+                                          key={section.name}
+                                          variants={menuMotion}
+                                        >
                                           {/* Category Title */}
                                           <Link to={section.href}>
-                                            <p id={`${section.name}-heading`} className="font-medium text-gray-900">
+                                            <p
+                                              id={`${section.name}-heading`}
+                                              className="font-medium text-gray-900"
+                                            >
                                               {section.name}
                                             </p>
                                           </Link>
@@ -465,14 +513,19 @@ const NavBar = () => {
                                             className="mt-6 space-y-6 sm:mt-4 sm:space-y-4"
                                           >
                                             {section.items.map((item) => (
-                                              <li key={item.name} className="flex">
-                                                <a href={item.href} className="hover:text-indigo-600">
+                                              <li
+                                                key={item.name}
+                                                className="flex"
+                                              >
+                                                <a
+                                                  href={item.href}
+                                                  className="hover:text-indigo-600"
+                                                >
                                                   {item.name}
                                                 </a>
                                               </li>
                                             ))}
                                           </ul>
-
                                         </motion.div>
                                       ))}
                                     </div>
@@ -480,7 +533,11 @@ const NavBar = () => {
                                     {/* FEATURED COLLECTIONS -> Image Format */}
                                     <div className="col-start-2 grid grid-cols-2 gap-x-8">
                                       {category.featured.map((item) => (
-                                        <motion.div key={item.name} className="group relative text-base sm:text-sm" variants={menuMotion}>
+                                        <motion.div
+                                          key={item.name}
+                                          className="group relative text-base sm:text-sm"
+                                          variants={menuMotion}
+                                        >
                                           {/* Image Panel */}
                                           <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg group-hover:opacity-75">
                                             <img
@@ -491,25 +548,31 @@ const NavBar = () => {
                                           </div>
 
                                           {/* Main Text */}
-                                          <Link to={item.href} className="mt-6 block font-medium text-gray-900 hover:text-indigo-600">
-                                            <span className="absolute inset-0 z-100" aria-hidden="true" />
+                                          <Link
+                                            to={item.href}
+                                            className="mt-6 block font-medium text-gray-900 hover:text-indigo-600"
+                                          >
+                                            <span
+                                              className="absolute inset-0 z-100"
+                                              aria-hidden="true"
+                                            />
                                             {item.name}
                                           </Link>
 
                                           {/* Subtitle */}
-                                          <p aria-hidden="true" className="mt-1">
+                                          <p
+                                            aria-hidden="true"
+                                            className="mt-1"
+                                          >
                                             Shop now
                                           </p>
-
                                         </motion.div>
                                       ))}
                                     </div>
-
                                   </motion.div>
                                 </div>
                               </div>
                             </Popover.Panel>
-                            
                           </Transition>
                         </>
                       )}
@@ -519,8 +582,11 @@ const NavBar = () => {
                   {/* Company + Store */}
                   {navigation.pages.map((page) => (
                     <motion.span variants={textMotion}>
-                      <Link to={page.href} className="flex items-center text-sm font-medium text-gray-800 hover:text-indigo-600">
-                          {page.name}
+                      <Link
+                        to={page.href}
+                        className="flex items-center text-sm font-medium text-gray-800 hover:text-indigo-600"
+                      >
+                        {page.name}
                       </Link>
                     </motion.span>
                   ))}
@@ -530,71 +596,107 @@ const NavBar = () => {
               {/* Navbar Additional Features */}
               <div className="ml-auto flex items-center">
                 {/* Sign In + Create Account */}
-                <motion.div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6" variants={textMotion}>
-                    <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-3">
-                      {/* Sign In Button */}
-                      <Link to="/luna-demo/sign-in">
-                        {/* HOME ICON*/}
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-gray-400 hover:text-indigo-600">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-                        </svg>
-                      </Link>
+                <motion.div
+                  className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6"
+                  variants={textMotion}
+                >
+                  <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-3">
+                    {/* Sign In Button */}
+                    <Link to="/luna-demo/sign-in">
+                      {/* HOME ICON*/}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6 text-gray-400 hover:text-indigo-600"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                        />
+                      </svg>
+                    </Link>
 
-                      {/* Separation Bar */}
-                      <span className="h-6 w-px bg-gray-200" aria-hidden="true" />
+                    {/* Separation Bar */}
+                    <span className="h-6 w-px bg-gray-200" aria-hidden="true" />
 
-                      {/* Create Account Button */}
-                      <Link to="/luna-demo/error" className="text-sm font-medium text-gray-800 hover:text-indigo-600">
-                        Create Account
-                      </Link>
-
-                    </div>
+                    {/* Create Account Button */}
+                    <Link
+                      to="/luna-demo/error"
+                      className="text-sm font-medium text-gray-800 hover:text-indigo-600"
+                    >
+                      Create Account
+                    </Link>
+                  </div>
                 </motion.div>
-                
+
                 {/* Currency Setting*/}
-                <motion.div className="hidden lg:ml-6 lg:flex" variants={textMotion}>
-                  <Link to="/luna-demo/error" className="flex items-center text-gray-800 hover:text-indigo-600">
+                <motion.div
+                  className="hidden lg:ml-6 lg:flex"
+                  variants={textMotion}
+                >
+                  <Link
+                    to="/luna-demo/error"
+                    className="flex items-center text-gray-800 hover:text-indigo-600"
+                  >
                     {/* American Dollar -> Default Currencey */}
                     <img
-                      src={"https://cdn-icons-png.flaticon.com/128/197/197484.png"}
+                      src={
+                        "https://cdn-icons-png.flaticon.com/128/197/197484.png"
+                      }
                       alt="United States of America"
                       className="block h-auto w-5 flex-shrink-0"
                     />
-                    <span className="ml-3 block text-sm font-medium hover:font-semibold">USD</span>
+                    <span className="ml-3 block text-sm font-medium hover:font-semibold">
+                      USD
+                    </span>
                   </Link>
                 </motion.div>
 
                 {/* Search Icon */}
                 <motion.div className="flex lg:ml-6" variants={textMotion}>
-                  <Link to="/luna-demo/error" className="p-2 text-gray-400 hover:text-indigo-600">
-                    <MagnifyingGlassIcon className="h-6 w-6" aria-hidden="true" />
+                  <Link
+                    to="/luna-demo/error"
+                    className="p-2 text-gray-400 hover:text-indigo-600"
+                  >
+                    <MagnifyingGlassIcon
+                      className="h-6 w-6"
+                      aria-hidden="true"
+                    />
                   </Link>
                 </motion.div>
 
                 {/* Shopping Cart */}
-                <motion.div className="ml-4 flow-root lg:ml-6" variants={textMotion}>
-                  <div onClick={handleCartClick} className="group -m-2 flex items-center p-2">
+                <motion.div
+                  className="ml-4 flow-root lg:ml-6"
+                  variants={textMotion}
+                >
+                  <div
+                    onClick={handleCartClick}
+                    className="group -m-2 flex items-center p-2"
+                  >
                     {/* Cart Icon */}
                     <ShoppingBagIcon
                       className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-indigo-600"
                       aria-hidden="true"
                     />
                     {/* # of Products Selected */}
-                    <span className="ml-2 text-sm font-medium text-gray-700">0</span>
+                    <span className="ml-2 text-sm font-medium text-gray-700">
+                      0
+                    </span>
                   </div>
-                  {isCartOpen && (
-                    <ShoppingCart variants={textMotion} />
-                  )}
+                  {isCartOpen && <ShoppingCart variants={textMotion} />}
                 </motion.div>
-
               </div>
-
             </div>
           </motion.div>
         </nav>
       </header>
     </div>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
