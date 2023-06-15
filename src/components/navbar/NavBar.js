@@ -19,15 +19,13 @@ const navigation = {
         {
           name: "New Arrivals",
           href: "/luna-demo/new-arrivals",
-          imageSrc:
-            "https://img.freepik.com/premium-photo/model-women-dressed-fashionable-pastel-blazers-pants-with-stylish-sneakers-posing-cube-white-background-studio_8544-2564.jpg?w=740",
+          imageSrc: "https://img.freepik.com/premium-photo/model-women-dressed-fashionable-pastel-blazers-pants-with-stylish-sneakers-posing-cube-white-background-studio_8544-2564.jpg?w=740",
           imageAlt: "new arrivals - women",
         },
         {
           name: "Featured",
           href: "/luna-demo/women",
-          imageSrc:
-            "https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448737.jpg",
+          imageSrc: "https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448737.jpg",
           imageAlt: "women collections",
         },
       ],
@@ -41,16 +39,10 @@ const navigation = {
           items: [
             { name: "Tops", href: "/luna-demo/women/clothing/tops" },
             { name: "Bottoms", href: "/luna-demo/women/clothing/bottoms" },
-            {
-              name: "Dresses & Skirts",
-              href: "/luna-demo/women/clothing/dresses-&-skirts",
-            },
+            { name: "Dresses & Skirts", href: "/luna-demo/women/clothing/dresses-&-skirts" },
             { name: "Innerwear", href: "/luna-demo/women/clothing/innerwear" },
             { name: "Outerwear", href: "/luna-demo/women/clothing/outerwear" },
-            {
-              name: "Activewear",
-              href: "/luna-demo/women/clothing/activewear",
-            },
+            { name: "Activewear", href: "/luna-demo/women/clothing/activewear" },
             { name: "Browse All", href: "/luna-demo/women/clothing" },
           ],
         },
@@ -62,16 +54,10 @@ const navigation = {
           href: "/luna-demo/women/accessories",
           items: [
             { name: "Hats", href: "/luna-demo/women/accessories/hats" },
-            {
-              name: "Sunglasses",
-              href: "/luna-demo/women/accessories/hats/sunglasses",
-            },
+            { name: "Sunglasses", href: "/luna-demo/women/accessories/hats/sunglasses" },
             { name: "Belts", href: "/luna-demo/women/accessories/belts" },
             { name: "Wallets", href: "/luna-demo/women/accessories/wallets" },
-            {
-              name: "Bags & Backpacks",
-              href: "/luna-demo/women/accessories/bags-&-backpacks",
-            },
+            { name: "Bags & Backpacks", href: "/luna-demo/women/accessories/bags-&-backpacks" },
             { name: "Browse All", href: "/luna-demo/women/accessories" },
           ],
         },
@@ -82,17 +68,11 @@ const navigation = {
           name: "Brands",
           href: "/women/brands",
           items: [
-            {
-              name: "PrettyLittleThing",
-              href: "https://www.prettylittlething.us/",
-            },
+            { name: "PrettyLittleThing", href: "https://www.prettylittlething.us/" },
             { name: "Princess Polly", href: "https://us.princesspolly.com/" },
             { name: "Lululemon", href: "https://shop.lululemon.com/" },
             { name: "Alo Yoga", href: "https://www.aloyoga.com/" },
-            {
-              name: "Beginning Boutique",
-              href: "https://www.beginningboutique.com/",
-            },
+            { name: "Beginning Boutique",href: "https://www.beginningboutique.com/" },
           ],
         },
       ],
@@ -106,15 +86,13 @@ const navigation = {
         {
           name: "New Arrivals",
           href: "/luna-demo/new-arrivals",
-          imageSrc:
-            "https://img.freepik.com/free-photo/handsome-man-autumn-setting_23-2149056583.jpg?w=740&t=st=1686626826~exp=1686627426~hmac=fc9c0cf48980f38a2074638771fbb85cfdc6719baed5bb53a68cd1a1d13f1bae",
+          imageSrc: "https://img.freepik.com/free-photo/handsome-man-autumn-setting_23-2149056583.jpg?w=740&t=st=1686719533~exp=1686720133~hmac=412b4a8e6e4f1f7a4c19a82ad681fd79802613b71707068b37b46872e8b33109",
           imageAlt: "new arrivals - men",
         },
         {
           name: "Featured",
           href: "/luna-demo/men",
-          imageSrc:
-            "https://img.freepik.com/premium-photo/shirt-mockup-concept-with-plain-clothing_23-2149448789.jpg?w=740",
+          imageSrc: "https://img.freepik.com/premium-photo/shirt-mockup-concept-with-plain-clothing_23-2149448789.jpg?w=740",
           imageAlt: "mens collection",
         },
       ],
@@ -142,16 +120,10 @@ const navigation = {
           href: "/men/accessories",
           items: [
             { name: "Hats", href: "/luna-demo/men/accessories/hats" },
-            {
-              name: "Sunglasses",
-              href: "/luna-demo/men/accessories/hats/sunglasses",
-            },
+            { name: "Sunglasses", href: "/luna-demo/men/accessories/hats/sunglasses" },
             { name: "Belts", href: "/luna-demo/men/accessories/belts" },
             { name: "Wallets", href: "/luna-demo/men/accessories/wallets" },
-            {
-              name: "Bags & Backpacks",
-              href: "/luna-demo/men/accessories/bags-&-backpacks",
-            },
+            { name: "Bags & Backpacks", href: "/luna-demo/men/accessories/bags-&-backpacks" },
             { name: "Browse All", href: "/luna-demo/men/accessories" },
           ],
         },
@@ -162,16 +134,10 @@ const navigation = {
           name: "Brands",
           href: "/luna-demo/men/brands",
           items: [
-            {
-              name: "Suspicious Antwerp",
-              href: "https://www.suspiciousantwerp.com/",
-            },
+            { name: "Suspicious Antwerp", href: "https://www.suspiciousantwerp.com/" },
             { name: "Vineyard Vines", href: "https://www.vineyardvines.com/" },
             { name: "Nike", href: "https://www.patagonia.com/home/" },
-            {
-              name: "Urban Outfitters",
-              href: "/https://www.urbanoutfitters.com/",
-            },
+            { name: "Urban Outfitters", href: "/https://www.urbanoutfitters.com/" },
           ],
         },
       ],
