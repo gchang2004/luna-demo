@@ -115,10 +115,10 @@
 
 Here are the dependencies need to run the project locally. If the software is already installed, no further steps are needed.
 
-- npm
   ```sh
   npm install npm@latest -g
   ```
+
 
 <!-- LICENSE -->
 
