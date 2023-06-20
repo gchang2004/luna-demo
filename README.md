@@ -102,9 +102,10 @@
 
 ## 🌎 Languages Employed
 
-[![Javascript][javascript-shield]][javascript-url]
+[![JavaScript][javascript-shield]][javascript-url]
 [![CSS3][css3-shield]][css3-url]
 [![HTML5][html5-shield]][html5-url]
+[![Shell_Script][shell-script-shield][shell-script-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -269,6 +270,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 [javascript-url]: https://www.javascript.com/
 [react-shield]: https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB
 [react-url]: https://reactjs.org/
+[shell-script-shield]:https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white
+[shell-script-url]:https://linuxcommand.org/index.php
 
 <!-- MARKDOWN RESOURCES -->
 
