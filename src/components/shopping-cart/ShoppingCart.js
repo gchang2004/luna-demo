@@ -115,6 +115,18 @@ const ShoppingCart = () => {
     visible: { opacity: 1, transition: { duration: 0.25, ease: 'easeInOut' }}, // ANIMATION STAGE
   };
 
+  const handleCheckout = async () => {
+    try {
+      const response = await fetch('/create-checkout-session', {
+        method: 'POST',
+      });
+      const data = await response.json();
+      window.location.href = data.url; // Redirect the user to the session URL
+    } catch (error) {
+      console.error('Error creating checkout session:', error);
+    }
+  };  
+
   return (
     <Transition.Root show={open} as={Fragment}>
       <Dialog as="div" className="relative z-10" onClose={setOpen}>
@@ -240,13 +252,22 @@ const ShoppingCart = () => {
                   {/* Subtitle Information */}
                   <p className="mt-0.5 text-sm text-gray-500">Shipping and taxes calculated at checkout.</p>
 
-                  {/* Checkout Button */}
-                  <div className="mt-6">
-                    <Link to="/luna-demo/error"
+                  {/*<Link to="/create-checkout-session"
+                      type="submit"
                       className="flex items-center justify-center rounded-lg bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-md hover:bg-indigo-700 hover:shadow-none"
                     >
                       Checkout
-                    </Link>
+                    </Link>/*
+                  
+                  {/* Checkout Button */}
+                  <div className="mt-6">
+                    <button
+                      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                      onClick={handleCheckout}
+                    >
+                      Checkout
+                    </button>
+                    
                   </div>
                   
                   {/* Additional Information */}

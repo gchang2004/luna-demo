@@ -1,9 +1,24 @@
-import React from 'react'
 
-const Activewear = () => {
-  return (
-    <div>Activewear</div>
-  )
-}
+    import React from 'react';
+    import { NavBar, ProductCategory, Footer } from '../../../../components';
 
-export default Activewear
+    // ONLY CHANGE INPUT.JS
+    import input from './input';
+
+    const Activewear = () => {
+        return (
+            <div className="bg-white">
+            <NavBar />
+            <ProductCategory
+                name={input.name}
+                sortOptions={input.sortOptions}
+                subCategories={input.subCategories}
+                filters={input.filters}
+                products={input.products} />
+            <Footer />
+            </div>
+        )
+    }
+
+    export default Activewear
+    
