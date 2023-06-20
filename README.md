@@ -111,7 +111,7 @@
 
 <!-- DEPENDENCIES -->
 
-## 🚀 Prerequisites
+## 🚀 Prerequisites & Shell Scripting Instructions
 
 Here are the dependencies need to run the project locally. If the software is already installed, no further steps are needed.
 
@@ -119,6 +119,17 @@ Here are the dependencies need to run the project locally. If the software is al
   npm install npm@latest -g
   ```
 
+To use the shell script, you may need to grant ownership to the file before executing the script.
+
+  ```sh
+  chmod 700 automation.sh
+  ```
+
+To execute the file, type the following command and follow the terminal output instructions:
+
+  ```sh
+  ./automation.sh
+  ```
 
 <!-- LICENSE -->
 
