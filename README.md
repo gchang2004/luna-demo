@@ -105,7 +105,7 @@
 [![JavaScript][javascript-shield]][javascript-url]
 [![CSS3][css3-shield]][css3-url]
 [![HTML5][html5-shield]][html5-url]
-[![Shell_Script][shell_script-shield][shell_script-url]
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
