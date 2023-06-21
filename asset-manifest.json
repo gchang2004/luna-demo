@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/luna-demo/static/css/main.fe11811f.css",
-    "main.js": "/luna-demo/static/js/main.3f3434d8.js",
+    "main.js": "/luna-demo/static/js/main.3dc30cd4.js",
     "static/media/armstrong.png": "/luna-demo/static/media/armstrong.47604bd49c7c78af6cbf.png",
     "static/media/logo.png": "/luna-demo/static/media/logo.de4c42c9fa220fb32b83.png",
     "static/media/luna-letter.png": "/luna-demo/static/media/luna-letter.4d2107375af4876f5869.png",
     "index.html": "/luna-demo/index.html",
     "main.fe11811f.css.map": "/luna-demo/static/css/main.fe11811f.css.map",
-    "main.3f3434d8.js.map": "/luna-demo/static/js/main.3f3434d8.js.map"
+    "main.3dc30cd4.js.map": "/luna-demo/static/js/main.3dc30cd4.js.map"
   },
   "entrypoints": [
     "static/css/main.fe11811f.css",
-    "static/js/main.3f3434d8.js"
+    "static/js/main.3dc30cd4.js"
   ]
 }
