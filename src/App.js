@@ -24,21 +24,21 @@ const App = () => {
         </Helmet>
 
         <Routes>
-          <Route exact path="/luna-demo" element={<Home />} />
-          <Route path="/luna-demo/error" element={<Error />} />
-          <Route path="/luna-demo/sign-in" element={<SignIn />} />
-          <Route path="/luna-demo/new-arrivals" element={<NewArrivals />} />
+          <Route exact path="/luna-demo/" element={<Home />} />
+          <Route path="/luna-demo/error/" element={<Error />} />
+          <Route path="/luna-demo/sign-in/" element={<SignIn />} />
+          <Route path="/luna-demo/new-arrivals/" element={<NewArrivals />} />
 
           {/* Men Clothing */}
-          <Route path="/luna-demo/men" element={<Men />} />
-          <Route path="/luna-demo/men/clothing" element={<MenClothing />} />
-          <Route path="/luna-demo/men/clothing/tops" element={<Tops />} />
-          <Route path="/luna-demo/men/clothing/bottoms" element={<Bottoms />} />
-          <Route path="/luna-demo/men/clothing/innerwear" element={<Innerwear />} />
-          <Route path="/luna-demo/men/clothing/outerwear" element={<Outerwear />} />
-          <Route path="/luna-demo/men/clothing/activewear" element={<Activewear />} />
+          <Route path="/luna-demo/men/" element={<Men />} />
+          <Route path="/luna-demo/men/clothing/" element={<MenClothing />} />
+          <Route path="/luna-demo/men/clothing/tops/" element={<Tops />} />
+          <Route path="/luna-demo/men/clothing/bottoms/" element={<Bottoms />} />
+          <Route path="/luna-demo/men/clothing/innerwear/" element={<Innerwear />} />
+          <Route path="/luna-demo/men/clothing/outerwear/" element={<Outerwear />} />
+          <Route path="/luna-demo/men/clothing/activewear/" element={<Activewear />} />
 
-          <Route path="/luna-demo/men/clothing/tops/basic-tee" element={<BasicTee />} />
+          <Route path="/luna-demo/men/clothing/tops/basic-tee/" element={<BasicTee />} />
 
           {/* Women Clothing */}
 

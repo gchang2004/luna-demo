@@ -9,21 +9,21 @@ const callouts = [
       description: 'Outfits Made for Everday Essentials',
       imageSrc: 'https://cdn.shopify.com/s/files/1/1610/4725/products/jamhdfront.jpg?v=1676282978&width=1540',
       imageAlt: 'suspiciousAntwerp_1',
-      urlTag: '/luna-demo/men/clothing',
+      urlTag: '/luna-demo/men/clothing/',
     },
     {
       name: 'Accessories',
       description: 'Let Us Complete Your Look',
       imageSrc: 'https://cdn.shopify.com/s/files/1/1610/4725/products/sockssizes.jpg?v=1660808760&width=1540',
       imageAlt: 'suspiciousAntwerp_2',
-      urlTag: '/luna-demo/men/accessories',
+      urlTag: '/luna-demo/men/accessories/',
     },
     {
       name: 'Brands',
       description: 'Powerful Collaborations with Industry Pioneers',
       imageSrc: 'https://cdn.shopify.com/s/files/1/1610/4725/products/23-JJ-1-VT-HD-OL-M.png?v=1681380429&width=1540',
       imageAlt: 'suspiciousAntwerp_3',
-      urlTag: '/luna-demo/men/brands',
+      urlTag: '/luna-demo/men/brands/',
     },
   ]
 

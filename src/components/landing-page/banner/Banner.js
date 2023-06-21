@@ -30,7 +30,7 @@ return ( // when the trigger is initialized (begin as true), meaning that the ba
 
           {/* BANNER BUTTON */}
           <Link
-            to="/luna-demo/sign-in"
+            to="/luna-demo/sign-in/"
             className="flex-none rounded-full bg-white text-indigo-600 px-3.5 py-1 text-sm font-semibold shadow-sm hover:bg-indigo-600 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 transition-transform duration-300 transform hover:scale-95"
           >
             Join Today &rarr;

@@ -26,7 +26,7 @@ const SignIn = () => {
         {/* LOGO + Title */}
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <motion.span variants={textMotion}>
-            <Link to="/luna-demo">
+            <Link to="/luna-demo/">
               <img
                 className="mx-auto h-12 w-auto"
                 src={lunaLetter}
@@ -73,7 +73,7 @@ const SignIn = () => {
 
                 {/* Forgot Password Link */}
                 <div className="text-sm">
-                  <Link to="/luna-demo/error" className="font-semibold text-indigo-600 hover:text-indigo-500">
+                  <Link to="/luna-demo/error/" className="font-semibold text-indigo-600 hover:text-indigo-500">
                     Forgot Password?
                   </Link>
                 </div>
@@ -108,7 +108,7 @@ const SignIn = () => {
           {/* SIGN UP Link */}
           <motion.p className="mt-10 text-center text-sm text-gray-500" variants={textMotion}>
             Not a member?{' '}
-            <Link to="/error" className="font-semibold leading-6 text-indigo-600 hover:text-transparent bg-clip-text bg-gradient-to-l from-blue-500 to-purple-500">
+            <Link to="/error/" className="font-semibold leading-6 text-indigo-600 hover:text-transparent bg-clip-text bg-gradient-to-l from-blue-500 to-purple-500">
               Join today for free.
             </Link>
           </motion.p>

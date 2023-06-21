@@ -136,7 +136,7 @@ const Header = () => {
 
             {/* HEADER BUTTON */}
             <motion.span variants={textMotion}>
-              <Link to="/luna-demo/new-arrivals" className="inline-block rounded-full border border-transparent bg-indigo-600 px-4 lg:px-8 py-2 lg:py-3 text-center font-medium text-white transition-transform duration-300 transform hover:scale-95 hover:bg-gradient-to-l from-blue-500 to-purple-500 shadow-lg">
+              <Link to="/luna-demo/new-arrivals/" className="inline-block rounded-full border border-transparent bg-indigo-600 px-4 lg:px-8 py-2 lg:py-3 text-center font-medium text-white transition-transform duration-300 transform hover:scale-95 hover:bg-gradient-to-l from-blue-500 to-purple-500 shadow-lg">
                 Explore Collection
               </Link>
             </motion.span>

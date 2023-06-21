@@ -18,13 +18,13 @@ const navigation = {
       featured: [
         {
           name: "New Arrivals",
-          href: "/luna-demo/new-arrivals",
+          href: "/luna-demo/new-arrivals/",
           imageSrc: "https://img.freepik.com/premium-photo/model-women-dressed-fashionable-pastel-blazers-pants-with-stylish-sneakers-posing-cube-white-background-studio_8544-2564.jpg?w=740",
           imageAlt: "new arrivals - women",
         },
         {
           name: "Featured",
-          href: "/luna-demo/women",
+          href: "/luna-demo/women/",
           imageSrc: "https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448737.jpg",
           imageAlt: "women collections",
         },
@@ -35,15 +35,15 @@ const navigation = {
         {
           id: "clothing",
           name: "Clothing",
-          href: "/luna-demo/women/clothing",
+          href: "/luna-demo/women/clothing/",
           items: [
-            { name: "Tops", href: "/luna-demo/women/clothing/tops" },
-            { name: "Bottoms", href: "/luna-demo/women/clothing/bottoms" },
-            { name: "Dresses & Skirts", href: "/luna-demo/women/clothing/dresses-&-skirts" },
-            { name: "Innerwear", href: "/luna-demo/women/clothing/innerwear" },
-            { name: "Outerwear", href: "/luna-demo/women/clothing/outerwear" },
-            { name: "Activewear", href: "/luna-demo/women/clothing/activewear" },
-            { name: "Browse All", href: "/luna-demo/women/clothing" },
+            { name: "Tops", href: "/luna-demo/women/clothing/tops/" },
+            { name: "Bottoms", href: "/luna-demo/women/clothing/bottoms/" },
+            { name: "Dresses & Skirts", href: "/luna-demo/women/clothing/dresses-&-skirts/" },
+            { name: "Innerwear", href: "/luna-demo/women/clothing/innerwear/" },
+            { name: "Outerwear", href: "/luna-demo/women/clothing/outerwear/" },
+            { name: "Activewear", href: "/luna-demo/women/clothing/activewear/" },
+            { name: "Browse All", href: "/luna-demo/women/clothing/" },
           ],
         },
 
@@ -51,14 +51,14 @@ const navigation = {
         {
           id: "accessories",
           name: "Accessories",
-          href: "/luna-demo/women/accessories",
+          href: "/luna-demo/women/accessories/",
           items: [
-            { name: "Hats", href: "/luna-demo/women/accessories/hats" },
-            { name: "Sunglasses", href: "/luna-demo/women/accessories/hats/sunglasses" },
-            { name: "Belts", href: "/luna-demo/women/accessories/belts" },
-            { name: "Wallets", href: "/luna-demo/women/accessories/wallets" },
-            { name: "Bags & Backpacks", href: "/luna-demo/women/accessories/bags-&-backpacks" },
-            { name: "Browse All", href: "/luna-demo/women/accessories" },
+            { name: "Hats", href: "/luna-demo/women/accessories/hats/" },
+            { name: "Sunglasses", href: "/luna-demo/women/accessories/hats/sunglasses/" },
+            { name: "Belts", href: "/luna-demo/women/accessories/belts/" },
+            { name: "Wallets", href: "/luna-demo/women/accessories/wallets/" },
+            { name: "Bags & Backpacks", href: "/luna-demo/women/accessories/bags-&-backpacks/" },
+            { name: "Browse All", href: "/luna-demo/women/accessories/" },
           ],
         },
 
@@ -66,7 +66,7 @@ const navigation = {
         {
           id: "brands",
           name: "Brands",
-          href: "/women/brands",
+          href: "/women/brands/",
           items: [
             { name: "PrettyLittleThing", href: "https://www.prettylittlething.us/" },
             { name: "Princess Polly", href: "https://us.princesspolly.com/" },
@@ -85,13 +85,13 @@ const navigation = {
       featured: [
         {
           name: "New Arrivals",
-          href: "/luna-demo/new-arrivals",
+          href: "/luna-demo/new-arrivals/",
           imageSrc: "https://img.freepik.com/free-photo/handsome-man-autumn-setting_23-2149056583.jpg?w=740&t=st=1686719533~exp=1686720133~hmac=412b4a8e6e4f1f7a4c19a82ad681fd79802613b71707068b37b46872e8b33109",
           imageAlt: "new arrivals - men",
         },
         {
           name: "Featured",
-          href: "/luna-demo/men",
+          href: "/luna-demo/men/",
           imageSrc: "https://img.freepik.com/premium-photo/shirt-mockup-concept-with-plain-clothing_23-2149448789.jpg?w=740",
           imageAlt: "mens collection",
         },
@@ -102,14 +102,14 @@ const navigation = {
         {
           id: "clothing",
           name: "Clothing",
-          href: "/luna-demo/men/clothing",
+          href: "/luna-demo/men/clothing/",
           items: [
-            { name: "Tops", href: "/luna-demo/men/clothing/tops" },
-            { name: "Bottoms", href: "/luna-demo/men/clothing/bottoms" },
-            { name: "Innerwear", href: "/luna-demo/men/clothing/innerwear" },
-            { name: "Outerwear", href: "/luna-demo/men/clothing/outerwear" },
-            { name: "Activewear", href: "/luna-demo/men/clothing/activewear" },
-            { name: "Browse All", href: "/luna-demo/men/clothing" },
+            { name: "Tops", href: "/luna-demo/men/clothing/tops/" },
+            { name: "Bottoms", href: "/luna-demo/men/clothing/bottoms/" },
+            { name: "Innerwear", href: "/luna-demo/men/clothing/innerwear/" },
+            { name: "Outerwear", href: "/luna-demo/men/clothing/outerwear/" },
+            { name: "Activewear", href: "/luna-demo/men/clothing/activewear/" },
+            { name: "Browse All", href: "/luna-demo/men/clothing/" },
           ],
         },
 
@@ -117,14 +117,14 @@ const navigation = {
         {
           id: "accessories",
           name: "Accessories",
-          href: "/men/accessories",
+          href: "/men/accessories/",
           items: [
-            { name: "Hats", href: "/luna-demo/men/accessories/hats" },
-            { name: "Sunglasses", href: "/luna-demo/men/accessories/hats/sunglasses" },
-            { name: "Belts", href: "/luna-demo/men/accessories/belts" },
-            { name: "Wallets", href: "/luna-demo/men/accessories/wallets" },
-            { name: "Bags & Backpacks", href: "/luna-demo/men/accessories/bags-&-backpacks" },
-            { name: "Browse All", href: "/luna-demo/men/accessories" },
+            { name: "Hats", href: "/luna-demo/men/accessories/hats/" },
+            { name: "Sunglasses", href: "/luna-demo/men/accessories/hats/sunglasses/" },
+            { name: "Belts", href: "/luna-demo/men/accessories/belts/" },
+            { name: "Wallets", href: "/luna-demo/men/accessories/wallets/" },
+            { name: "Bags & Backpacks", href: "/luna-demo/men/accessories/bags-&-backpacks/" },
+            { name: "Browse All", href: "/luna-demo/men/accessories/" },
           ],
         },
 
@@ -132,7 +132,7 @@ const navigation = {
         {
           id: "brands",
           name: "Brands",
-          href: "/luna-demo/men/brands",
+          href: "/luna-demo/men/brands/",
           items: [
             { name: "Suspicious Antwerp", href: "https://www.suspiciousantwerp.com/" },
             { name: "Vineyard Vines", href: "https://www.vineyardvines.com/" },
@@ -146,8 +146,8 @@ const navigation = {
 
   // Additional NavBar Pages
   pages: [
-    { name: "Company", href: "/luna-demo/error" },
-    { name: "Stores", href: "/luna-demo/error" },
+    { name: "Company", href: "/luna-demo/error/" },
+    { name: "Stores", href: "/luna-demo/error/" },
   ],
 };
 
@@ -367,7 +367,7 @@ const NavBar = () => {
                   variants={menuMotion}
                 >
                   <Link
-                    to="/luna-demo/sign-in"
+                    to="/luna-demo/sign-in/"
                     className="-m-2 block p-2 font-medium text-gray-900 hover:text-indigo-600"
                   >
                     Sign In / Create Account
@@ -384,7 +384,7 @@ const NavBar = () => {
                 >
                   {/* American Dollar -> Default Currencey */}
                   <Link
-                    to="/luna-demo/error"
+                    to="/luna-demo/error/"
                     className="flex items-center text-gray-700 hover:text-gray-800"
                   >
                     <img
@@ -431,7 +431,7 @@ const NavBar = () => {
 
               {/* COMPANY LOGO */}
               <motion.div className="ml-4 flex lg:ml-0" variants={textMotion}>
-                <Link to="/luna-demo">
+                <Link to="/luna-demo/">
                   <img
                     className="h-7 w-auto"
                     src={lunaLetter}
@@ -603,7 +603,7 @@ const NavBar = () => {
                 >
                   <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-3">
                     {/* Sign In Button */}
-                    <Link to="/luna-demo/sign-in">
+                    <Link to="/luna-demo/sign-in/">
                       {/* HOME ICON*/}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -626,7 +626,7 @@ const NavBar = () => {
 
                     {/* Create Account Button */}
                     <Link
-                      to="/luna-demo/error"
+                      to="/luna-demo/error/"
                       className="text-sm font-medium text-gray-800 hover:text-indigo-600"
                     >
                       Create Account
@@ -640,7 +640,7 @@ const NavBar = () => {
                   variants={textMotion}
                 >
                   <Link
-                    to="/luna-demo/error"
+                    to="/luna-demo/error/"
                     className="flex items-center text-gray-800 hover:text-indigo-600"
                   >
                     {/* American Dollar -> Default Currencey */}
@@ -660,7 +660,7 @@ const NavBar = () => {
                 {/* Search Icon */}
                 <motion.div className="flex lg:ml-6" variants={textMotion}>
                   <Link
-                    to="/luna-demo/error"
+                    to="/luna-demo/error/"
                     className="p-2 text-gray-400 hover:text-indigo-600"
                   >
                     <MagnifyingGlassIcon

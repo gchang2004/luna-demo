@@ -9,28 +9,28 @@ const callouts = [
     description: 'Discover the Latest Styles',
     imageSrc: 'https://img.freepik.com/free-photo/trendy-fashionable-couple-posing_155003-3402.jpg?w=1800&t=st=1685854195~exp=1685854795~hmac=21ea56b5664a7a61940f2525d94026068f9752ea755d639853618dd7caf87a47',
     imageAlt: 'trending collection #1',
-    to: '/luna-demo/new-arrivals',
+    to: '/luna-demo/new-arrivals/',
   },
   {
     name: 'Summertime Vibes',
     description: 'Step Into Summer with Confidence',
     imageSrc: 'https://img.freepik.com/free-photo/smiling-young-man-showing-away-beach_23-2148165049.jpg?w=740&t=st=1685852410~exp=1685853010~hmac=4fdcc0a45cf473840a0f0410dda1a2d220898a300eec12c2465579d0cc96284b',
     imageAlt: 'trending collection #2',
-    to: '/luna-demo/summer-sale',
+    to: '/luna-demo/summer-sale/',
   },
   {
     name: 'Activewear for All',
     description: 'Unlease Your Workout Game',
     imageSrc: 'https://img.freepik.com/free-photo/beautiful-woman-yoga-outfit-with-headband-sportswear-fashion-shoot_53876-102114.jpg?w=1060&t=st=1685852311~exp=1685852911~hmac=58f5d012db313ecce9e510937dff23aad92315654e9267c8be034a834ee9faa5',
     imageAlt: 'trending collection #3',
-    to: '/luna-demo/activewear',
+    to: '/luna-demo/activewear/',
   },
   {
     name: 'Accessories',
     description: 'Find The Perfect Finishing Touch',
     imageSrc: 'https://img.freepik.com/free-photo/gold-chain-plants-arrangement_23-2149836424.jpg?w=740&t=st=1685853152~exp=1685853752~hmac=b3e21e576b583fa15c398a0b4e552ceb439b207eed86a1573fb941e66461a1a3',
     imageAlt: 'trending collection #3',
-    to: '/luna-demo/accessories',
+    to: '/luna-demo/accessories/',
   },
 ]
 

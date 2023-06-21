@@ -16,11 +16,11 @@ const Input = {
 
   // Category Filter
   subCategories: [
-      { name: 'Bottoms', href: '/luna-demo/men/clothing/bottoms' },
-      { name: 'Innerwear', href: '/luna-demo/men/clothing/innerwear' },
-      { name: 'Outerwear', href: '/luna-demo/men/clothing/outerwear' },
-      { name: 'Activewear', href: '/luna-demo/men/clothing/activewear' },
-      { name: 'Browse All', href: '/luna-demo/men/clothing' },
+      { name: 'Bottoms', href: '/luna-demo/men/clothing/bottoms/' },
+      { name: 'Innerwear', href: '/luna-demo/men/clothing/innerwear/' },
+      { name: 'Outerwear', href: '/luna-demo/men/clothing/outerwear/' },
+      { name: 'Activewear', href: '/luna-demo/men/clothing/activewear/' },
+      { name: 'Browse All', href: '/luna-demo/men/clothing/' },
   ],
 
   // Specific Category Filters
