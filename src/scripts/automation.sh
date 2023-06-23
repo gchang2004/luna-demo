@@ -135,34 +135,20 @@ category_INPUT()
         {
             id: 1,
             name: 'clothing 1',
+            category: 'TEXT',
             href: 'https://www.google.com/',
             price: '\$21',
-            imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-            imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+            imageSrc: 'TEXT',
+            imageAlt: 'image 1',
         },
         {
             id: 2,
             name: 'clothin 2',
+            category: 'TEXT',
             href: 'https://www.google.com/',
             price: '\$35',
-            imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-            imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
-        },
-        {
-            id: 3,
-            name: 'clothin 3',
-            href: 'https://www.google.com/',
-            price: '\$89',
-            imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-            imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
-        },
-        {
-            id: 4,
-            name: 'Machined Mechanical Pencil',
-            href: 'https://www.google.com/',
-            price: '\$35',
-            imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-            imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+            imageSrc: 'TEXT',
+            imageAlt: 'image',
         },
         // More products...
         ]
@@ -223,7 +209,7 @@ listing_INPUT()
     product: {
         // General Information about the product
         name: '$filler_3',
-        price: '\$192',
+        price: '\$12',
         to: '/luna-demomen/clothing/$filler_2/$filler_3',
         
         // Product Breadcrumbs
@@ -236,20 +222,20 @@ listing_INPUT()
         //Product Images
         images: [
             {
-            src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-secondary-product-shot.jpg',
-            alt: 'Two each of gray, white, and black shirts laying flat.',
+            src: 'PASTE',
+            alt: 'image 1',
             },
             {
-            src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-01.jpg',
-            alt: 'Model wearing plain black basic tee.',
+            src: 'PASTE',
+            alt: 'image 2',
             },
             {
-            src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-tertiary-product-shot-02.jpg',
-            alt: 'Model wearing plain gray basic tee.',
+            src: 'PASTE',
+            alt: 'image 3',
             },
             {
-            src: 'https://tailwindui.com/img/ecommerce-images/product-page-02-featured-product-shot.jpg',
-            alt: 'Model wearing plain white basic tee.',
+            src: 'PASTE',
+            alt: 'image 4',
             },
         ],
 
@@ -267,24 +253,22 @@ listing_INPUT()
             { name: 'M', inStock: true },
             { name: 'L', inStock: true },
             { name: 'XL', inStock: true },
-            { name: 'XXL', inStock: true },
+            { name: 'XXL', inStock: false },
         ],
 
         // Product Introduction
         description:
-            'The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: \"Black\". Need to add an extra pop of color to your outfit? Our white tee has you covered.',
+            'TEXT',
         
         // Product Bulletpoints
         highlights: [
             'Hand cut and sewn locally',
             'Dyed with our proprietary colors',
-            'Pre-washed & pre-shrunk',
-            'Ultra-soft 100% cotton',
         ],
         
         // Product Additional Information
         details:
-            'The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming "Charcoal Gray" limited release.',
+            'TEXT',
     },
 
     // Personalized Recommendation per Product

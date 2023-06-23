@@ -7,7 +7,7 @@ import { Home, Error, SignIn, NewArrivals } from './pages';
 
 // Men Clothing
 import { Men, MenClothing, Tops, Bottoms, Innerwear, Outerwear, Activewear } from './pages';
-import { BasicTee } from './pages';
+import { Nike1, Nike2, Nike3, Nike4, Nike5, Zara1, Zara2, Zara3, Zara4, Zara5 } from './pages';
 
 // Women Clothing
 
@@ -38,7 +38,17 @@ const App = () => {
           <Route path="/luna-demo/men/clothing/outerwear/" element={<Outerwear />} />
           <Route path="/luna-demo/men/clothing/activewear/" element={<Activewear />} />
 
-          <Route path="/luna-demo/men/clothing/tops/basic-tee/" element={<BasicTee />} />
+          <Route path="/luna-demo/men/clothing/tops/nike1" element={<Nike1 />} />
+          <Route path="/luna-demo/men/clothing/tops/nike2" element={<Nike2 />} />
+          <Route path="/luna-demo/men/clothing/tops/nike3" element={<Nike3 />} />
+          <Route path="/luna-demo/men/clothing/tops/nike4" element={<Nike4 />} />
+          <Route path="/luna-demo/men/clothing/tops/nike5" element={<Nike5 />} />
+          
+          <Route path="/luna-demo/men/clothing/bottoms/zara1" element={<Zara1 />} />
+          <Route path="/luna-demo/men/clothing/bottoms/zara2" element={<Zara2 />} />
+          <Route path="/luna-demo/men/clothing/bottoms/zara3" element={<Zara3 />} />
+          <Route path="/luna-demo/men/clothing/bottoms/zara4" element={<Zara4 />} />
+          <Route path="/luna-demo/men/clothing/bottoms/zara5" element={<Zara5 />} />
 
           {/* Women Clothing */}
 

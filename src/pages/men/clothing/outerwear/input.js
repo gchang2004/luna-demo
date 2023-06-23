@@ -3,7 +3,7 @@
     const Input = {
         // General Information
         name: {
-        category: "Activewear",
+        category: "Outerwear",
         },
     
         // Sort Filter

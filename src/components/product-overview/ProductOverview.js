@@ -94,7 +94,7 @@ const ProductOverview = ({ product, reviews }) => {
           {/* IMAGE GALLERY */}
           <div className="flex-1 mx-auto mt-6 pb-4 sm:pb-6 lg:pb-32 max-w-2xl sm:px-6 lg:px-8">
             {/* Main Image */}
-            <motion.div className="aspect-h-4 aspect-w-3 overflow-hidden rounded-2xl shadow-lg flex justify-center items-center" variants={textMotion}>
+            <motion.div className="overflow-hidden sm:rounded-lg shadow-lg flex justify-center items-center lg:mr-5 lg:ml-5" variants={textMotion}>
               {/* Image 0 is shown first = first image on list */}
               <img
                 src={product.images[selectedImageIndex].src}
@@ -104,7 +104,7 @@ const ProductOverview = ({ product, reviews }) => {
             </motion.div>
 
             {/* Small Images */}
-            <motion.div className="lg:flex flex justify-center space-x-4 border-t border-gray-300 pt-2 mt-10" variants={textMotion}>
+            <motion.div className="lg:flex flex justify-center space-x-4 border-t border-gray-300 pt-1 mt-8" variants={textMotion}>
               {/* Indexes through image list for gallery effect */}{
               product.images.slice(0).map((image, index) => (
                 <img
