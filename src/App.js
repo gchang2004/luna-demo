@@ -7,7 +7,7 @@ import { Home, Error, SignIn, NewArrivals } from './pages';
 
 // Men Clothing
 import { Men, MenClothing, Tops, Bottoms, Innerwear, Outerwear, Activewear } from './pages';
-import { Nike1, Nike2, Nike3, Nike4, Nike5, Zara1, Zara2, Zara3, Zara4, Zara5 } from './pages';
+import { Nike1, Nike2, Nike3, Nike4, Nike5, Zara1, Zara2, Zara3, Zara4, Zara5, TommyJohn1, TommyJohn2, TommyJohn3, TommyJohn4, TommyJohn5 } from './pages';
 
 // Women Clothing
 
@@ -49,6 +49,12 @@ const App = () => {
           <Route path="/luna-demo/men/clothing/bottoms/zara3" element={<Zara3 />} />
           <Route path="/luna-demo/men/clothing/bottoms/zara4" element={<Zara4 />} />
           <Route path="/luna-demo/men/clothing/bottoms/zara5" element={<Zara5 />} />
+
+          <Route path="/luna-demo/men/clothing/innerwear/tommyjohn1" element={<TommyJohn1 />} />
+          <Route path="/luna-demo/men/clothing/innerwear/tommyjohn2" element={<TommyJohn2 />} />
+          <Route path="/luna-demo/men/clothing/innerwear/tommyjohn3" element={<TommyJohn3 />} />
+          <Route path="/luna-demo/men/clothing/innerwear/tommyjohn4" element={<TommyJohn4 />} />
+          <Route path="/luna-demo/men/clothing/innerwear/tommyjohn5" element={<TommyJohn5 />} />
 
           {/* Women Clothing */}
 

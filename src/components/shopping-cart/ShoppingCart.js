@@ -116,16 +116,16 @@ const ShoppingCart = () => {
   };
 
   const handleCheckout = async () => {
-    try {
-      const response = await fetch('/create-checkout-session', {
+
+      fetch('/create-checkout-session', {
         method: 'POST',
-      });
-      const data = await response.json();
-      window.location.href = data.url; // Redirect the user to the session URL
-    } catch (error) {
-      console.error('Error creating checkout session:', error);
-    }
-  };  
+      })
+      .then(res => res.json())
+      .then(url => {
+        window.location.href = url
+      })
+      .catch(err => console.log(err))
+  }
 
   return (
     <Transition.Root show={open} as={Fragment}>

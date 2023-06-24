@@ -30,6 +30,12 @@ export { default as Zara2 } from './men/clothing/bottoms/zara2/Zara2';
 export { default as Zara3 } from './men/clothing/bottoms/zara3/Zara3';
 export { default as Zara4 } from './men/clothing/bottoms/zara4/Zara4';
 export { default as Zara5 } from './men/clothing/bottoms/zara5/Zara5';
+
+export { default as TommyJohn1 } from './men/clothing/innerwear/tommyjohn1/TommyJohn1';
+export { default as TommyJohn2 } from './men/clothing/innerwear/tommyjohn2/TommyJohn2';
+export { default as TommyJohn3 } from './men/clothing/innerwear/tommyjohn3/TommyJohn3';
+export { default as TommyJohn4 } from './men/clothing/innerwear/tommyjohn4/TommyJohn4';
+export { default as TommyJohn5 } from './men/clothing/innerwear/tommyjohn5/TommyJohn5';
 //---------------------------------------------------------------------------
 
 // WOMEN CLOTHING

@@ -125,6 +125,12 @@ To use the shell script, you may need to grant ownership to the file before exec
   chmod 700 automation.sh
   ```
 
+To navigate to the shell script, start at the "luna-demo" directory and type the following:
+
+  ```sh
+  cd src/scripts
+  ```
+
 To execute the file, type the following command and follow the terminal output instructions:
 
   ```sh
@@ -145,6 +151,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 👕 Clothing websites that inspired the design of the website!
 
+- [Calvin Klein](https://www.calvinklein.us/en)
 - [H&M](https://www2.hm.com/en_us/index.html)
 - [Nike](https://www.nike.com/)
 - [PrettyLittleThing](https://www.prettylittlething.us/)
