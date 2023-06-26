@@ -86,7 +86,7 @@ const navigation = {
         {
           name: "New Arrivals",
           href: "/luna-demo/new-arrivals/",
-          imageSrc: "https://img.freepik.com/free-photo/handsome-man-autumn-setting_23-2149056583.jpg?w=740&t=st=1686719533~exp=1686720133~hmac=412b4a8e6e4f1f7a4c19a82ad681fd79802613b71707068b37b46872e8b33109",
+          imageSrc: "https://img.freepik.com/free-photo/handsome-man-autumn-setting_23-2149056580.jpg?w=740&t=st=1687738996~exp=1687739596~hmac=dfc9d6070d96915d23039569bd9e2e9d717e1ff6f9236f7dcf94307a630450af",
           imageAlt: "new arrivals - men",
         },
         {

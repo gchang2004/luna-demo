@@ -36,6 +36,12 @@ export { default as TommyJohn2 } from './men/clothing/innerwear/tommyjohn2/Tommy
 export { default as TommyJohn3 } from './men/clothing/innerwear/tommyjohn3/TommyJohn3';
 export { default as TommyJohn4 } from './men/clothing/innerwear/tommyjohn4/TommyJohn4';
 export { default as TommyJohn5 } from './men/clothing/innerwear/tommyjohn5/TommyJohn5';
+
+export { default as NorthFace1 } from './men/clothing/outerwear/northface1/NorthFace1';
+export { default as NorthFace2 } from './men/clothing/outerwear/northface2/NorthFace2';
+export { default as NorthFace3 } from './men/clothing/outerwear/northface3/NorthFace3';
+export { default as NorthFace4 } from './men/clothing/outerwear/northface4/NorthFace4';
+export { default as NorthFace5 } from './men/clothing/outerwear/northface5/NorthFace5';
 //---------------------------------------------------------------------------
 
 // WOMEN CLOTHING

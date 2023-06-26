@@ -154,6 +154,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 - [Calvin Klein](https://www.calvinklein.us/en)
 - [H&M](https://www2.hm.com/en_us/index.html)
 - [Nike](https://www.nike.com/)
+- [North Face](https://www.thenorthface.com/en-us)
 - [PrettyLittleThing](https://www.prettylittlething.us/)
 - [Princess Polly](https://us.princesspolly.com/)
 - [Suspicious Antwerp](https://www.suspiciousantwerp.com/en-us)

@@ -7,7 +7,10 @@ import { Home, Error, SignIn, NewArrivals } from './pages';
 
 // Men Clothing
 import { Men, MenClothing, Tops, Bottoms, Innerwear, Outerwear, Activewear } from './pages';
-import { Nike1, Nike2, Nike3, Nike4, Nike5, Zara1, Zara2, Zara3, Zara4, Zara5, TommyJohn1, TommyJohn2, TommyJohn3, TommyJohn4, TommyJohn5 } from './pages';
+import { Nike1, Nike2, Nike3, Nike4, Nike5,
+         Zara1, Zara2, Zara3, Zara4, Zara5,
+         TommyJohn1, TommyJohn2, TommyJohn3, TommyJohn4, TommyJohn5,
+         NorthFace1, NorthFace2, NorthFace3, NorthFace4, NorthFace5 } from './pages';
 
 // Women Clothing
 
@@ -55,6 +58,12 @@ const App = () => {
           <Route path="/luna-demo/men/clothing/innerwear/tommyjohn3" element={<TommyJohn3 />} />
           <Route path="/luna-demo/men/clothing/innerwear/tommyjohn4" element={<TommyJohn4 />} />
           <Route path="/luna-demo/men/clothing/innerwear/tommyjohn5" element={<TommyJohn5 />} />
+
+          <Route path="/luna-demo/men/clothing/outerwear/northface1" element={<NorthFace1 />} />
+          <Route path="/luna-demo/men/clothing/outerwear/northface2" element={<NorthFace2 />} />
+          <Route path="/luna-demo/men/clothing/outerwear/northface3" element={<NorthFace3 />} />
+          <Route path="/luna-demo/men/clothing/outerwear/northface4" element={<NorthFace4 />} />
+          <Route path="/luna-demo/men/clothing/outerwear/northface5" element={<NorthFace5 />} />
 
           {/* Women Clothing */}
 

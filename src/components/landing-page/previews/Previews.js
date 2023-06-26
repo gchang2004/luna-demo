@@ -7,7 +7,7 @@ const callouts = [
   {
     name: 'New Arrivals',
     description: 'Discover the Latest Styles',
-    imageSrc: 'https://img.freepik.com/free-photo/trendy-fashionable-couple-posing_155003-3402.jpg?w=1800&t=st=1685854195~exp=1685854795~hmac=21ea56b5664a7a61940f2525d94026068f9752ea755d639853618dd7caf87a47',
+    imageSrc: 'https://img.freepik.com/free-photo/cute-couple-posing-together_23-2149056554.jpg?w=740&t=st=1687739009~exp=1687739609~hmac=3475bd712bf99f18c6a36d83f0960901dd30d0383d0b24e4870482269f262fe6',
     imageAlt: 'trending collection #1',
     to: '/luna-demo/new-arrivals/',
   },
