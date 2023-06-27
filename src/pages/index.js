@@ -42,6 +42,12 @@ export { default as NorthFace2 } from './men/clothing/outerwear/northface2/North
 export { default as NorthFace3 } from './men/clothing/outerwear/northface3/NorthFace3';
 export { default as NorthFace4 } from './men/clothing/outerwear/northface4/NorthFace4';
 export { default as NorthFace5 } from './men/clothing/outerwear/northface5/NorthFace5';
+
+export { default as GymShark1 } from './men/clothing/activewear/gymshark1/GymShark1';
+export { default as GymShark2 } from './men/clothing/activewear/gymshark2/GymShark2';
+export { default as GymShark3 } from './men/clothing/activewear/gymshark3/GymShark3';
+export { default as GymShark4 } from './men/clothing/activewear/gymshark4/GymShark4';
+export { default as GymShark5 } from './men/clothing/activewear/gymshark5/GymShark5';
 //---------------------------------------------------------------------------
 
 // WOMEN CLOTHING

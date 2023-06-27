@@ -11,30 +11,34 @@
     // Product DESCRIPTIONS
     product: {
         // General Information about the product
-        name: 'Retro Eco Vest',
-        price: '$90',
-        to: '/luna-demomen/clothing/northface3/NorthFace3',
+        name: 'Vital Seamless Light Tank',
+        price: '$26',
+        to: '/luna-demomen/clothing/gymshark3/GymShark3',
         
         // Product Breadcrumbs
         breadcrumbs: [
             { id: 1, name: 'Men', to: '/luna-demo/men' },
             { id: 2, name: 'Clothing', to:'/luna-demo/men/clothing'},
-            { id: 3, name: 'Outerwear', to: '/luna-demo/men/clothing/outerwear' },
+            { id: 3, name: 'Activewear', to: '/luna-demo/men/clothing/activewear' },
         ],
 
         //Product Images
         images: [
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/VitalTankPapayaOrangeMarlA2A3F-A2A3F-OBGG_ZH_ZH_3840x.jpg?v=1645638287',
             alt: 'image 1',
             },
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/VitalTankPapayaOrangeMarlA2A3F-A2A3F-OBGG1_ZH_ZH_640x.jpg?v=1645638287',
             alt: 'image 2',
             },
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_model34?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/VitalTankPapayaOrangeMarlA2A3F-A2A3F-OBGG2_ZH_ZH_640x.jpg?v=1645638287',
             alt: 'image 3',
+            },
+            {
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/VitalTankPapayaOrangeMarlA2A3F-A2A3F-OBGG3_ZH_ZH_640x.jpg?v=1645638287',
+            alt: 'image 4',
             },
         ],
 
@@ -57,19 +61,20 @@
 
         // Product Introduction
         description:
-            'Days in the city can get just as frigid as those in the wild. For cold-weather protection, the relaxed-fit Men’s Denali Vest is the perfect crossover layer. The water-repellent finish, nylon overlay, and soft Polartec® fleece help you stay dry and warm without restricting mobility.',
+            'Endeavour to perform every single time in the Vital Light Tank. With a performance-driven design, it’s made to move in any direction while keeping you cool and dry, thanks to its lightweight, breathable material and sweat-wicking technology. This workout top is here to make your best performance the norm.',
         
         // Product Bulletpoints
         highlights: [
-            'Relaxed fit',
-            'Woven overlay on collar, chest and back of yoke',
-            'Elastic binding on armholes',
-            'Secure-zip hand pockets',
+            'Slim fit',
+            'Heat-sealed Gymshark logo',
+            'Lgithweight material for breathability',
+            'Seamless design',
+            '100% Nylon',
         ],
         
         // Product Additional Information
         details:
-            '70D x 160D 121 g/m² 100% recycled nylon with non-PFC durable water-repellent (non-PFC DWR) finish',
+            'Model is 6\'2" and wears size M',
     },
 
     // Personalized Recommendation per Product

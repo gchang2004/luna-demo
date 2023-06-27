@@ -11,30 +11,34 @@
     // Product DESCRIPTIONS
     product: {
         // General Information about the product
-        name: 'Retro Eco Vest',
-        price: '$90',
-        to: '/luna-demomen/clothing/northface3/NorthFace3',
+        name: 'Sport 1/4 Zip',
+        price: '$40',
+        to: '/luna-demomen/clothing/gymshark5/GymShark5',
         
         // Product Breadcrumbs
         breadcrumbs: [
             { id: 1, name: 'Men', to: '/luna-demo/men' },
             { id: 2, name: 'Clothing', to:'/luna-demo/men/clothing'},
-            { id: 3, name: 'Outerwear', to: '/luna-demo/men/clothing/outerwear' },
+            { id: 3, name: 'Activewear', to: '/luna-demo/men/clothing/activewear' },
         ],
 
         //Product Images
         images: [
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/Sport1-4ZipWoodlandGreenA3A5T-EBR4-0509.50_9373747c-b932-4369-bbd0-c56a412d0e3a_1200x.jpg?v=1670268987',
             alt: 'image 1',
             },
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/Sport1-4ZipWoodlandGreenA3A5T-EBR4-0521.51_afb4e5f8-f204-4e38-b5fe-a4f461becf6d_640x.jpg?v=1670268987',
             alt: 'image 2',
             },
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_model34?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/Sport1-4ZipWoodlandGreenA3A5T-EBR4-0524.52_7a93f30d-d59f-4038-9b33-b6feb4d13b6b_640x.jpg?v=1670268987',
             alt: 'image 3',
+            },
+            {
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/Sport1-4ZipWoodlandGreenA3A5T-EBR4-0503.49_aed71447-e3e0-4445-95ae-4740581afae5_640x.jpg?v=1670268987',
+            alt: 'image 4',
             },
         ],
 
@@ -57,19 +61,20 @@
 
         // Product Introduction
         description:
-            'Days in the city can get just as frigid as those in the wild. For cold-weather protection, the relaxed-fit Men’s Denali Vest is the perfect crossover layer. The water-repellent finish, nylon overlay, and soft Polartec® fleece help you stay dry and warm without restricting mobility.',
+            'Durable, breathable, never-want-to-take-offable. Sport is a multi-activity training collection for those preparing for their next game day, finished off with reflective angled logos for a classic sport aesthetic.',
         
         // Product Bulletpoints
         highlights: [
-            'Relaxed fit',
-            'Woven overlay on collar, chest and back of yoke',
-            'Elastic binding on armholes',
-            'Secure-zip hand pockets',
+            'Slim fit',
+            '1/4 zip',
+            'Angled stripe graphic panels to side',
+            'Lightweight, breathable material',
+            '92% Polyester, 8% Elastane',
         ],
         
         // Product Additional Information
         details:
-            '70D x 160D 121 g/m² 100% recycled nylon with non-PFC durable water-repellent (non-PFC DWR) finish',
+            'Model is 6\'1" and wears size M',
     },
 
     // Personalized Recommendation per Product

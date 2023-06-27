@@ -208,15 +208,15 @@ listing_INPUT()
     // Product DESCRIPTIONS
     product: {
         // General Information about the product
-        name: '$filler_3',
-        price: '\$12',
+        name: 'PASTE',
+        price: '\$',
         to: '/luna-demomen/clothing/$filler_2/$filler_3',
         
         // Product Breadcrumbs
         breadcrumbs: [
             { id: 1, name: 'Men', to: '/luna-demo/$gender' },
             { id: 2, name: 'Clothing', to:'/luna-demo/$gender/clothing'},
-            { id: 3, name: 'Tops', to: '/luna-demo/$gender/clothing/tops' },
+            { id: 3, name: 'PASTE', to: '/luna-demo/$gender/clothing/PASTE' },
         ],
 
         //Product Images
@@ -262,8 +262,10 @@ listing_INPUT()
         
         // Product Bulletpoints
         highlights: [
-            'Hand cut and sewn locally',
-            'Dyed with our proprietary colors',
+            '',
+            '',
+            '',
+            '',
         ],
         
         // Product Additional Information

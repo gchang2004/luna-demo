@@ -11,30 +11,34 @@
     // Product DESCRIPTIONS
     product: {
         // General Information about the product
-        name: 'Retro Eco Vest',
-        price: '$90',
-        to: '/luna-demomen/clothing/northface3/NorthFace3',
+        name: 'Geo Seamless T-Shirt',
+        price: '$34',
+        to: '/luna-demomen/clothing/gymshark1/GymShark1',
         
         // Product Breadcrumbs
         breadcrumbs: [
             { id: 1, name: 'Men', to: '/luna-demo/men' },
             { id: 2, name: 'Clothing', to:'/luna-demo/men/clothing'},
-            { id: 3, name: 'Outerwear', to: '/luna-demo/men/clothing/outerwear' },
+            { id: 3, name: 'Activewear', to: '/luna-demo/men/clothing/activewear' },
         ],
 
         //Product Images
         images: [
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/GeoSeamlessSsTFloraGreen-WillowGreenA5A2D-EB3R73_2216b052-7756-44c3-8a4f-c5d57736d301_3840x.jpg?v=1674591235',
             alt: 'image 1',
             },
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/GeoSeamlessSsTFloraGreen-WillowGreenA5A2D-EB3R75_3b3de59d-e84e-465d-84f0-56f656100c0e_640x.jpg?v=1674591235',
             alt: 'image 2',
             },
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_model34?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/GeoSeamlessSsTFloraGreen-WillowGreenA5A2D-EB3R74_728a1418-dc84-4967-926b-5115cb7e6876_640x.jpg?v=1674591235',
             alt: 'image 3',
+            },
+            {
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/GeoSeamlessSsTFloraGreen-WillowGreenA5A2D-EB3R77_925a060d-aa26-4e0b-8092-4c0c397d1f22_640x.jpg?v=1674591235',
+            alt: 'image 4',
             },
         ],
 
@@ -57,19 +61,22 @@
 
         // Product Introduction
         description:
-            'Days in the city can get just as frigid as those in the wild. For cold-weather protection, the relaxed-fit Men’s Denali Vest is the perfect crossover layer. The water-repellent finish, nylon overlay, and soft Polartec® fleece help you stay dry and warm without restricting mobility.',
+            'Get freedom \'til the finish in Geo Seamless. Sweat-wicking tech and breathable mesh structures keep you cool and dry. Lightweight material and minimal seams ensure zero distractions for maximum focus. And raglan sleeves accentuate your shoulders for a subtle nod to the physique you’ve worked for. It’s time to release your movement and reimagine your capabilities. You ready?',
         
         // Product Bulletpoints
         highlights: [
-            'Relaxed fit',
-            'Woven overlay on collar, chest and back of yoke',
-            'Elastic binding on armholes',
-            'Secure-zip hand pockets',
+            'Slim fit',
+            'All-over mesh structures',
+            'Lightweight material',
+            'Jacquard camo pattern',
+            'Sweat-wicking',
+            'Raglan sleeves',
+            '73% Polyester, 27% Nylon',
         ],
         
         // Product Additional Information
         details:
-            '70D x 160D 121 g/m² 100% recycled nylon with non-PFC durable water-repellent (non-PFC DWR) finish',
+            'Model is 6\'0" and wears size M',
     },
 
     // Personalized Recommendation per Product

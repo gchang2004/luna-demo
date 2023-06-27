@@ -11,30 +11,34 @@
     // Product DESCRIPTIONS
     product: {
         // General Information about the product
-        name: 'Retro Eco Vest',
-        price: '$90',
-        to: '/luna-demomen/clothing/northface3/NorthFace3',
+        name: 'Arrival Woven Joggers',
+        price: '$40',
+        to: '/luna-demomen/clothing/gymshark4/GymShark4',
         
         // Product Breadcrumbs
         breadcrumbs: [
             { id: 1, name: 'Men', to: '/luna-demo/men' },
             { id: 2, name: 'Clothing', to:'/luna-demo/men/clothing'},
-            { id: 3, name: 'Outerwear', to: '/luna-demo/men/clothing/outerwear' },
+            { id: 3, name: 'Activewear', to: '/luna-demo/men/clothing/activewear' },
         ],
 
         //Product Images
         images: [
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/ArrivalSlimWovenPantNavy.A2A1N-UBCY.A_ZH_ZH_1200x.jpg?v=1647041889',
             alt: 'image 1',
             },
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/ArrivalSlimWovenPantNavy.A2A1N-UBCY.B_ZH_ZH_640x.jpg?v=1647041889',
             alt: 'image 2',
             },
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_model34?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/ArrivalSlimWovenPantNavy.A2A1N-UBCY.C_ZH_ZH_640x.jpg?v=1647041889',
             alt: 'image 3',
+            },
+            {
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/ArrivalSlimWovenPantNavy.A2A1N-UBCY.D1_ZH_ZH_640x.jpg?v=1647041889',
+            alt: 'image 4',
             },
         ],
 
@@ -57,19 +61,21 @@
 
         // Product Introduction
         description:
-            'Days in the city can get just as frigid as those in the wild. For cold-weather protection, the relaxed-fit Men’s Denali Vest is the perfect crossover layer. The water-repellent finish, nylon overlay, and soft Polartec® fleece help you stay dry and warm without restricting mobility.',
+            'Give some extra power, poise and purpose to your training. The Arrival Woven Joggers are focused on performance with a supportive fit, light-stretch polyester-elastane blend and customisable wear, keeping your movement weightless and your efforts effective.',
         
         // Product Bulletpoints
         highlights: [
-            'Relaxed fit',
-            'Woven overlay on collar, chest and back of yoke',
-            'Elastic binding on armholes',
-            'Secure-zip hand pockets',
+            'Slim fit',
+            'Lightweight material',
+            'Tapered to leg',
+            'Elasticated drawcord waistband',
+            'Zipped ankle cuffs for easy wear',
+            '87% Polyester, 13% Elastane',
         ],
         
         // Product Additional Information
         details:
-            '70D x 160D 121 g/m² 100% recycled nylon with non-PFC durable water-repellent (non-PFC DWR) finish',
+            'Model is 6\'0" and wears size M',
     },
 
     // Personalized Recommendation per Product

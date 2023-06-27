@@ -11,30 +11,34 @@
     // Product DESCRIPTIONS
     product: {
         // General Information about the product
-        name: 'Retro Eco Vest',
-        price: '$90',
-        to: '/luna-demomen/clothing/northface3/NorthFace3',
+        name: '315 Long Sleeve T-Shirt',
+        price: '$44',
+        to: '/luna-demomen/clothing/gymshark2/GymShark2',
         
         // Product Breadcrumbs
         breadcrumbs: [
             { id: 1, name: 'Men', to: '/luna-demo/men' },
             { id: 2, name: 'Clothing', to:'/luna-demo/men/clothing'},
-            { id: 3, name: 'Outerwear', to: '/luna-demo/men/clothing/outerwear' },
+            { id: 3, name: 'Activewear', to: '/luna-demo/men/clothing/activewear' },
         ],
 
         //Product Images
         images: [
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/315LsSeamlessT-ShirtCoreOlive-MarshGreenA2A9X-EBJD_3840x.jpg?v=1665173568',
             alt: 'image 1',
             },
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_back?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/315LsSeamlessT-ShirtCoreOlive-MarshGreenA2A9X-EBJD1_640x.jpg?v=1665173568',
             alt: 'image 2',
             },
             {
-            src: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_model34?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/315LsSeamlessT-ShirtCoreOlive-MarshGreenA2A9X-EBJD5_640x.jpg?v=1665173568',
             alt: 'image 3',
+            },
+            {
+            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/315LsSeamlessT-ShirtCoreOlive-MarshGreenA2A9X-EBJDcopy_640x.jpg?v=1665173568',
+            alt: 'image 4',
             },
         ],
 
@@ -57,19 +61,20 @@
 
         // Product Introduction
         description:
-            'Days in the city can get just as frigid as those in the wild. For cold-weather protection, the relaxed-fit Men’s Denali Vest is the perfect crossover layer. The water-repellent finish, nylon overlay, and soft Polartec® fleece help you stay dry and warm without restricting mobility.',
+            'There’s no room for distractions when you’re repping out. That’s why 315 is designed to fade seamlessly into the background, so you can tune out the world and focus on the lift. Sweat-wicking technology allows you to keep your cool, while seamless designs reduce irritation to hold your focus where you need it. Bar’s loaded, you ready?',
         
         // Product Bulletpoints
         highlights: [
-            'Relaxed fit',
-            'Woven overlay on collar, chest and back of yoke',
-            'Elastic binding on armholes',
-            'Secure-zip hand pockets',
+            'Slim fit',
+            'Sweat-wicking tech',
+            'Knurkling inspired detailing',
+            'Dipped hem',
+            '62% Nylon, 38% Polyester',
         ],
         
         // Product Additional Information
         details:
-            '70D x 160D 121 g/m² 100% recycled nylon with non-PFC durable water-repellent (non-PFC DWR) finish',
+            'Model is 5\'9" and wears size LT',
     },
 
     // Personalized Recommendation per Product

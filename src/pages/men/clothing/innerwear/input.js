@@ -85,7 +85,7 @@
         {
             id: 3,
             name: 'Second Skin Tank Stay-Tucked Undershirt',
-            category: "Men's Undershirt",
+            category: "Men's Undershirts",
             href: './TommyJohn3',
             price: '$38',
             imageSrc: 'https://tjproduction.imgix.net/products/1000018_100001_Ecomm_Editorial_Front_M_I_SS_TNK_5.5.22_558.jpg?v=1659302209&w=1000',

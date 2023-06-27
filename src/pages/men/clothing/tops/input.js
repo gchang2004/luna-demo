@@ -109,7 +109,6 @@ const Input = {
       imageSrc: 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/ylfy1desh7d7fzidimas/dri-fit-mens-fitness-t-shirt-nhgSHx.png',
       imageAlt: 'image 5',
     },
-
     // More products...
   ]
 }

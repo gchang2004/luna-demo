@@ -152,6 +152,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 👕 Clothing websites that inspired the design of the website!
 
 - [Calvin Klein](https://www.calvinklein.us/en)
+- [Gym Shark](https://us.shop.gymshark.com/)
 - [H&M](https://www2.hm.com/en_us/index.html)
 - [Nike](https://www.nike.com/)
 - [North Face](https://www.thenorthface.com/en-us)

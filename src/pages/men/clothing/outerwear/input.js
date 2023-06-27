@@ -67,7 +67,7 @@
         {
             id: 1,
             name: 'Alta Vista Jacket',
-            category: 'Men\'s Jacket',
+            category: 'Men\'s Jackets',
             href: './NorthFace1',
             price: '$98',
             imageSrc: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7QAW_JK3_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
@@ -76,7 +76,7 @@
         {
             id: 2,
             name: 'Denali Anorak',
-            category: 'Men\'s Jacket',
+            category: 'Men\'s Jackets',
             href: './NorthFace2',
             price: '$140',
             imageSrc: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR3_EFS_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
@@ -85,7 +85,7 @@
         {
             id: 3,
             name: 'Retro Eco Vest',
-            category: 'Men\'s Vest',
+            category: 'Men\'s Vests',
             href: './NorthFace3',
             price: '$90',
             imageSrc: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A7UR4_LK5_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
@@ -94,7 +94,7 @@
         {
             id: 4,
             name: 'Corefire Down Jacket',
-            category: 'Men\'s Coat',
+            category: 'Men\'s Coats',
             href: './NorthFace4',
             price: '$320',
             imageSrc: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A4QWY_6Q9_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
@@ -103,7 +103,7 @@
         {
             id: 5,
             name: 'McMurdo Bomber',
-            category: 'Men\'s Coat',
+            category: 'Men\'s Coats',
             href: './NorthFace5',
             price: '$350',
             imageSrc: 'https://images.thenorthface.com/is/image/TheNorthFace/NF0A5GD9_JK3_hero?wid=1300&hei=1510&fmt=jpeg&qlt=90&resMode=sharp2&op_usm=0.9,1.0,8,0',
