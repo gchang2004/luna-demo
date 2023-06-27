@@ -39,13 +39,13 @@ const ProductList = ( {products} ) => {
                 </div>
 
                 {/* Product Name */}
-                <h2 className="mt-5 ml-1 text-lg text-gray-900">{product.name}</h2>
+                <h2 className="mt-5 ml-1 text-md sm:text-lg text-gray-900">{product.name}</h2>
 
                 {/* Product Category */}
-                <h3 className="mt-0 ml-1 text-md text-gray-400">{product.category}</h3>
+                <h3 className="mt-0 ml-1 text-sm sm:text-md text-gray-400">{product.category}</h3>
 
                 {/* Product Price */}
-                <p className="mt-1 ml-1 text-md font-medium text-gray-900">{product.price}</p>
+                <p className="mt-1 ml-1 text-sm sm:text-md font-medium text-gray-900">{product.price}</p>
               </Link>
             </motion.span>
           ))}

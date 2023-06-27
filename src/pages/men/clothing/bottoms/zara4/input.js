@@ -29,7 +29,7 @@
             alt: 'image 1',
             },
             {
-            src: 'https://static.zara.net/photos///2023/I/0/2/p/5520/300/505/2/w/1126/5520300505_1_1_1.jpg?ts=1684228603223E',
+            src: 'https://static.zara.net/photos///2023/I/0/2/p/5520/300/505/2/w/1126/5520300505_1_1_1.jpg?ts=1684228603223',
             alt: 'image 2',
             },
             {

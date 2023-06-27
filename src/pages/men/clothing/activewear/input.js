@@ -67,7 +67,7 @@
         {
             id: 1,
             name: 'Geo Seamless T-Shirt',
-            category: "Men\'s Tops",
+            category: "Men's Tops",
             href: './GymShark1',
             price: '$34',
             imageSrc: 'https://cdn.shopify.com/s/files/1/0156/6146/products/GeoSeamlessSsTFloraGreen-WillowGreenA5A2D-EB3R73_2216b052-7756-44c3-8a4f-c5d57736d301_3840x.jpg?v=1674591235',
