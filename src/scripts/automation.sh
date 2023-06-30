@@ -331,7 +331,7 @@ category_automate()
     ${BLUE}CHOOSE YOUR OPTIONS${RESET}:
     men $div women
     ${YELLOW}a)${RESET} clothing > tops $div bottoms $div innerwear $div outerwear $div activewear
-    ${YELLOW}b)${RESET} accessories > hats $div sunglasses $div belts $div wallets $div bags&backpacks
+    ${YELLOW}b)${RESET} accessories > hats $div sunglasses $div belts $div wallets $div bags-backpacks
     "
     read -r -p "Folder Address ./pages/" filler_1
 

@@ -52,7 +52,7 @@ const ProductCategory = ({ name, sortOptions, subCategories, filters, products }
           <motion.div className="fixed inset-0 z-40 flex"
             initial="hidden"
             whileInView="visible"
-            viewport={{once: true, amount: 0.2}}
+            viewport={{once: true, amount: 0.1}}
             variants={containerMotion}
             >
             {/* Layout Transition */}
@@ -168,7 +168,7 @@ const ProductCategory = ({ name, sortOptions, subCategories, filters, products }
       <motion.main className="mx-auto max-w-7xl px-5 sm:px-7 lg:px-9"
         initial="hidden"
         whileInView="visible"
-        viewport={{once: true, amount: 0.2}}
+        viewport={{once: true, amount: 0.1}}
         >
         {/* TOP ROW */}
         <div className="flex items-baseline justify-between border-b border-gray-200 pb-5 pt-5">
@@ -204,7 +204,7 @@ const ProductCategory = ({ name, sortOptions, subCategories, filters, products }
                     <motion.div className="py-2"
                       initial="hidden"
                       whileInView="visible"
-                      viewport={{once: true, amount: 0.2}}
+                      viewport={{once: true, amount: 0.1}}
                       variants={containerMotion}
                       >
                       {/* Dropdown Options */}

@@ -66,7 +66,7 @@ const navigation = {
         {
           id: "brands",
           name: "Brands",
-          href: "/women/brands/",
+          href: "/luna-demo/women/brands/",
           items: [
             { name: "PrettyLittleThing", href: "https://www.prettylittlething.us/" },
             { name: "Princess Polly", href: "https://us.princesspolly.com/" },
@@ -117,7 +117,7 @@ const navigation = {
         {
           id: "accessories",
           name: "Accessories",
-          href: "/men/accessories/",
+          href: "/luna-demo/men/accessories/",
           items: [
             { name: "Hats", href: "/luna-demo/men/accessories/hats/" },
             { name: "Sunglasses", href: "/luna-demo/men/accessories/hats/sunglasses/" },
@@ -130,14 +130,15 @@ const navigation = {
 
         // Brand Collaborations
         {
-          id: "brands",
-          name: "Brands",
+          id: "collaborations",
+          name: "Collaborations",
           href: "/luna-demo/men/brands/",
           items: [
             { name: "Suspicious Antwerp", href: "https://www.suspiciousantwerp.com/" },
             { name: "Vineyard Vines", href: "https://www.vineyardvines.com/" },
             { name: "Nike", href: "https://www.patagonia.com/home/" },
             { name: "Urban Outfitters", href: "/https://www.urbanoutfitters.com/" },
+            { name: "Browse All", href: "/luna-demo/men/brands/" },
           ],
         },
       ],

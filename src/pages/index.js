@@ -7,11 +7,13 @@ export { default as Error } from './error/Error';
 export { default as NewArrivals } from './new-arrivals/NewArrivals';
 
 //---------------------------------------------------------------------------
-// MEN CLOTHING
+// MENS CATEGORY
 export { default as Men } from './men/Men';
 export { default as MenClothing } from './men/clothing/MenClothing';
+export { default as MenAccesories } from './men/accessories/MenAccessories';
+export { default as MenBrands } from './men/brands/MenBrands';
 
-// category section
+// mens CLOTHING
 export { default as Tops } from './men/clothing/tops/Tops';
 export { default as Bottoms } from './men/clothing/bottoms/Bottoms';
 export { default as Innerwear } from './men/clothing/innerwear/Innerwear';
@@ -48,6 +50,10 @@ export { default as GymShark2 } from './men/clothing/activewear/gymshark2/GymSha
 export { default as GymShark3 } from './men/clothing/activewear/gymshark3/GymShark3';
 export { default as GymShark4 } from './men/clothing/activewear/gymshark4/GymShark4';
 export { default as GymShark5 } from './men/clothing/activewear/gymshark5/GymShark5';
+
+// MEN ACCESSORIES
+
+
 //---------------------------------------------------------------------------
 
 // WOMEN CLOTHING

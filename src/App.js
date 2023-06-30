@@ -6,7 +6,9 @@ import { Helmet } from "react-helmet"; //browser tab and icon customization
 import { Home, Error, SignIn, NewArrivals } from './pages';
 
 // Men Clothing
-import { Men, MenClothing, Tops, Bottoms, Innerwear, Outerwear, Activewear } from './pages';
+import { Men, MenClothing, MenAccesories, MenBrands,
+         Tops, Bottoms, Innerwear, Outerwear, Activewear } from './pages';
+
 import { Nike1, Nike2, Nike3, Nike4, Nike5,
          Zara1, Zara2, Zara3, Zara4, Zara5,
          TommyJohn1, TommyJohn2, TommyJohn3, TommyJohn4, TommyJohn5,
@@ -36,6 +38,9 @@ const App = () => {
           {/* Men Clothing */}
           <Route path="/luna-demo/men/" element={<Men />} />
           <Route path="/luna-demo/men/clothing/" element={<MenClothing />} />
+          <Route path="/luna-demo/men/accessories/" element={<MenAccesories />} />
+          <Route path="/luna-demo/men/brands/" element={<MenBrands />} />
+
           <Route path="/luna-demo/men/clothing/tops/" element={<Tops />} />
           <Route path="/luna-demo/men/clothing/bottoms/" element={<Bottoms />} />
           <Route path="/luna-demo/men/clothing/innerwear/" element={<Innerwear />} />
@@ -71,6 +76,7 @@ const App = () => {
           <Route path="/luna-demo/men/clothing/activewear/gymshark3" element={<GymShark3 />} />
           <Route path="/luna-demo/men/clothing/activewear/gymshark4" element={<GymShark4 />} />
           <Route path="/luna-demo/men/clothing/activewear/gymshark5" element={<GymShark5 />} />
+
 
           {/* Women Clothing */}
 

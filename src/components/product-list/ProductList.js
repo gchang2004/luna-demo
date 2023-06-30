@@ -23,7 +23,7 @@ const ProductList = ( {products} ) => {
         <motion.div className="grid grid-cols-2 gap-x-6 gap-y-12 sm:grid-cols-3 lg:grid-cols-3 lg:gap-x-8"
           initial="hidden"
           whileInView="visible"
-          viewport={{once: true, amount: 0.2}}
+          viewport={{once: true, amount: 0.1}}
           variants={containerMotion}
           >
           {products.map((product) => (
