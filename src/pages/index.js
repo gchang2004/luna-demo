@@ -20,6 +20,13 @@ export { default as Innerwear } from './men/clothing/innerwear/Innerwear';
 export { default as Outerwear } from './men/clothing/outerwear/Outerwear';
 export { default as Activewear } from './men/clothing/activewear/Activewear';
 
+// mens accessories
+export { default as Hats } from './men/accessories/hats/Hats';
+export { default as Sunglasses } from './men/accessories/sunglasses/Sunglasses';
+export { default as Belts } from './men/accessories/belts/Belts';
+export { default as Wallets } from './men/accessories/wallets/Wallets';
+export { default as BagsBackpacks } from './men/accessories/bagsbackpacks/BagsBackpacks';
+
 // product section
 export { default as Nike1 } from './men/clothing/tops/nike1/Nike1';
 export { default as Nike2 } from './men/clothing/tops/nike2/Nike2';
@@ -52,7 +59,11 @@ export { default as GymShark4 } from './men/clothing/activewear/gymshark4/GymSha
 export { default as GymShark5 } from './men/clothing/activewear/gymshark5/GymShark5';
 
 // MEN ACCESSORIES
-
+export { default as Adidas1 } from './men/accessories/hats/adidas1/Adidas1';
+export { default as Adidas2 } from './men/accessories/hats/adidas2/Adidas2';
+export { default as Adidas3 } from './men/accessories/hats/adidas3/Adidas3';
+export { default as Adidas4 } from './men/accessories/hats/adidas4/Adidas4';
+export { default as Adidas5 } from './men/accessories/hats/adidas5/Adidas5';
 
 //---------------------------------------------------------------------------
 

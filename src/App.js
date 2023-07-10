@@ -7,13 +7,15 @@ import { Home, Error, SignIn, NewArrivals } from './pages';
 
 // Men Clothing
 import { Men, MenClothing, MenAccesories, MenBrands,
-         Tops, Bottoms, Innerwear, Outerwear, Activewear } from './pages';
+         Tops, Bottoms, Innerwear, Outerwear, Activewear,
+         Hats, Sunglasses, Belts, Wallets, BagsBackpacks } from './pages';
 
 import { Nike1, Nike2, Nike3, Nike4, Nike5,
          Zara1, Zara2, Zara3, Zara4, Zara5,
          TommyJohn1, TommyJohn2, TommyJohn3, TommyJohn4, TommyJohn5,
          NorthFace1, NorthFace2, NorthFace3, NorthFace4, NorthFace5,
-         GymShark1, GymShark2, GymShark3, GymShark4, GymShark5 } from './pages';
+         GymShark1, GymShark2, GymShark3, GymShark4, GymShark5,
+         Adidas1, Adidas2, Adidas3, Adidas4, Adidas5, } from './pages';
 
 // Women Clothing
 
@@ -47,6 +49,12 @@ const App = () => {
           <Route path="/luna-demo/men/clothing/outerwear/" element={<Outerwear />} />
           <Route path="/luna-demo/men/clothing/activewear/" element={<Activewear />} />
 
+          <Route path="/luna-demo/men/accessories/hats" element={<Hats />} />
+          <Route path="/luna-demo/men/accessories/sunglasses" element={<Sunglasses />} />
+          <Route path="/luna-demo/men/accessories/belts" element={<Belts />} />
+          <Route path="/luna-demo/men/accessories/wallets" element={<Wallets />} />
+          <Route path="/luna-demo/men/accessories/bagsbackpacks" element={<BagsBackpacks />} />
+
           <Route path="/luna-demo/men/clothing/tops/nike1" element={<Nike1 />} />
           <Route path="/luna-demo/men/clothing/tops/nike2" element={<Nike2 />} />
           <Route path="/luna-demo/men/clothing/tops/nike3" element={<Nike3 />} />
@@ -77,6 +85,11 @@ const App = () => {
           <Route path="/luna-demo/men/clothing/activewear/gymshark4" element={<GymShark4 />} />
           <Route path="/luna-demo/men/clothing/activewear/gymshark5" element={<GymShark5 />} />
 
+          <Route path="/luna-demo/men/accessories/hats/adidas1" element={<Adidas1 />} />
+          <Route path="/luna-demo/men/accessories/hats/adidas2" element={<Adidas2 />} />
+          <Route path="/luna-demo/men/accessories/hats/adidas3" element={<Adidas3 />} />
+          <Route path="/luna-demo/men/accessories/hats/adidas4" element={<Adidas4 />} />
+          <Route path="/luna-demo/men/accessories/hats/adidas5" element={<Adidas5 />} />
 
           {/* Women Clothing */}
 

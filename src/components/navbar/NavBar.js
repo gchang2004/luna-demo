@@ -123,7 +123,7 @@ const navigation = {
             { name: "Sunglasses", href: "/luna-demo/men/accessories/hats/sunglasses/" },
             { name: "Belts", href: "/luna-demo/men/accessories/belts/" },
             { name: "Wallets", href: "/luna-demo/men/accessories/wallets/" },
-            { name: "Bags & Backpacks", href: "/luna-demo/men/accessories/bags-&-backpacks/" },
+            { name: "Bags & Backpacks", href: "/luna-demo/men/accessories/bagsbackpacks/" },
             { name: "Browse All", href: "/luna-demo/men/accessories/" },
           ],
         },
